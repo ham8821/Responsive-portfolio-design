@@ -17,10 +17,10 @@ body, html {
 }
 
 .greetingtitle{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 3em;
     font-weight: 700;
-    color: white;
+    rgba(124, 99, 84, 1);
     margin-top: 300px;
     
 }
@@ -43,7 +43,8 @@ body, html {
 
 .introscreen{
     background-image: url("../images/wallpaper2.jpg");
-    height: 625px;
+    height: 100%;
+    min-height: 640px;
     background-size: cover;
     text-align: center;
     background-attachment: scroll;
@@ -51,17 +52,41 @@ body, html {
     background-repeat: no-repeat;
 }
 .introductionbox{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 220px;
 }
 .jobtitle{
-    font-size: 2.5em;
+    font-size: 3vw;
     font-weight: 700;
 }
+
 .intro{
-    width: 600px;
+    width: 70%;
     margin: 10px auto;
-    font-size: 1em;
+   
     font-weight: 700;
+}
+
+@media screen and (min-width: 601px) {
+    .intro {
+        font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 10px;
+    }
+  }
+  /* ------------------------------------------------------------ */
+  .workscreen{
+    background-image: url("../images/wallpaper3.jpg");
+    height: 100%;
+    min-height: 625px;
+    background-size: cover;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
