@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /*section1 Greeting CSS  */
+.mainscreen{
+    background-image: url("../images/wallpaper9.jpg");
+    height: 625px;
+    background-size: cover;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.greetingtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    margin-top: 300px;
+    
+}
+
+
+/* -----------navbar---------------- */
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-nav{
+    float: right;
+}
+.logopic{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+/* -----------------section2----------------- */
+
+.introscreen{
+    background-image: url("../images/wallpaper2.jpg");
+    height: 625px;
+    background-size: cover;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.introductionbox{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 250px;
+}
+.jobtitle{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.intro{
+    width: 600px;
+    margin: 10px auto;
+    font-size: 1em;
+    font-weight: 700;
+}
