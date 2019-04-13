@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto" rel="stylesheet">
+    <!-- icon embeded -->
+    <script src="https://code.iconify.design/1/1.0.0/iconify.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- page to greet people ------------------------------------------------------ -->
@@ -18,21 +21,21 @@
                     <div class="mainscreen col-xs-12 col-sm-12 col-md-12">
                         
                  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-                    <a class="navbar-brand" href="#"><img class="logopic" src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="#"> <i id="codeicon"class="fa fa-code fa-lg" aria-hidden="true"></i></a>
                  
                     <div id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">ABOUT ME <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" id="aboutmeicon" href="#introduction">ABOUT ME <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">WORKS</a>
+                                <a class="nav-link" href="#works">WORKS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">EXTRA</a>
+                                <a class="nav-link" href="#extra">EXTRA</a>
                             </li>
                             <li class="nav-item">
-                                    <a class="nav-link" href="#">CONTACT</a>
+                                    <a class="nav-link" href="#Contact">CONTACT</a>
                                 </li>
                         </ul>
                     </div>
@@ -51,11 +54,12 @@
 
         <div class="container-fluid full-screen">
             <div class="row">
-                <div class="introscreen col-xs-12 col-md-12">
-                    <div class="introductionbox">
+                <div class="introscreen col-xs-12 col-md-12" >
+                    <div id="introductionbox">
                         <p class="jobtitle">Front-end developer </p>
                         <p class="jobtitle" id="secondtitle">&nbsp &nbsp & Back-end developer</p>
                         <p class="intro">Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>         
+                  
                     </div>
                 </div>
             </div>
@@ -68,7 +72,8 @@
         <div class="container-fluid full-screen">
             <div class="row">
                 <div class="workscreen col-xs-12 col-md-12">
-                  
+                        <p class="recentwork">My recent Projects</p>
+                        <span class="iconify" data-icon="jam:chevron-circle-right" data-inline="false"></span>
                 </div>
             </div>
         </div>
@@ -77,16 +82,79 @@
 
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="extra">
-
-        </section>
+            <div class="container-fluid full-screen">
+                    <div class="row">
+                        <div class="extra col-12">
+                                <h2 class="extraheading"> Little extra about me</h2>
+                                <p class="extrabox">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio consectetur temporibus at ut. Atque quidem reprehenderit laudantium tempore voluptate dignissimos voluptatum magnam impedit, dolorem aliquid, non fuga alias sequi Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloremque ipsum architecto iure tenetur distinctio praesentium consequuntur, repellendus nulla explicabo vero, iusto in? Excepturi assumenda, quam sapiente sunt dolorem placeat?></p>
+                        </div>
+                    </div>
+            </div>
+     </section>
      <!-- ---------------------------------------------------------------------------- -->
   
      <!-- page to greet people ------------------------------------------------------ -->
-    <section id="Contact">
-
+    <section class="contactscreen" id="Contact">
+        <div class="container-fluid full-screen">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                        <h2 class="contact">Let's build something togather!</h2>                  
+                         <br>
+                         <div class="row">
+                            <div class="contactform col-sm-12 col-md-12 col-lg-12">
+                                 <div class="labelname"><label class="label">Name</label>*</div>
+                                <div class="inputbox"><input class="inputbox" type="text" required></div> 
+                                <div class="labelname"><label class="label">Email</label>*</div>
+                                <div class="inputbox"><input class="inputbox" type="text" required> </div>
+                                <div class="labelname"><label class="label">Message</label>*</div>
+                                <div class="inputbox"><textarea class="inputbox" name="" id="" cols="30" rows="10" placeholder="" required></textarea> </div>
+                                <div class="inputbox"><button class="contactbutton">SUBMIT</button></div>
+                         </div>
+                        
+                 </div>
+              
+                 </div>
+            </div>
+        </div>
     </section>
     <!-- ---------------------------------------------------------------------------- -->
+<section id="footer">
+    <br><br><br>
+    <div class="row"> 
+         <div class="socialicons col-12">
+                <ul>
+                        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                      </ul>
 
+          </div>
+    </div>
+<br><br><br>
+    <div class="row">
+        <div class="footerline col-12">
+            <p class="line"> Bring better value to life everyday <br> by learning, being positive and never stop believing in myself.</p>
+       </div>
+    </div>
+<br>
+<div class="row">
+        <div class="codeline col-12">
+                <div style="font-size: 2.5rem;">
+                <i id="codeicon"class="fa fa-code fa-lg" aria-hidden="true"></i>
+                </div>
+         </div>
+    </div>
+  
+    <div class="row">
+            <div class="codeline col-12">
+                    <p class="line">
+                      Handcrafted by me # ham38538821@gmail.com
+                    </p>
+             </div>
+        </div>
+<br>
+
+</section>
 
 
 
