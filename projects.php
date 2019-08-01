@@ -6,11 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/secondcss.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Oswald|Playfair+Display" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-    <title>Document</title>
+
+    <title>Projects</title>
 </head>
-<body>
-    <div class="wrapper">
+<body class="fadeIn">
+    
+<!-- ----------------- -->
+
+<div class="wrapper">
         <div class="site-header-main">
             <div class="site-branding">
 
@@ -27,7 +33,7 @@
 <div class="header-overlay"></div>
 
 <div class="menu-toggle-wrapper">
-    <button id="menu-toggle" class="menu-toggle" aria-controls="top-menu" aria-expanded="false">
+    <button id="menu-toggle" class="menu-toggle" aria-controls="top-menu" aria-expanded="false" data-toggle="collapse" data-target="#site-navigation">
         <div class="menu-bars">
             <div class="bars bar1"></div>
               <div class="bars bar2"></div>
@@ -36,7 +42,7 @@
         <span class="menu-label">Menu</span>
     </button>
 </div><!-- .menu-toggle-wrapper -->
-
+<br>
 <div class="menu-inside-wrapper">
 
         
@@ -60,10 +66,25 @@
                             </div> --> <!-- #header-navigation-area -->
 
     </div>
+<!--  -->
+<section>
+    <div class="container-fluid">
+        <div class="row" style="padding-left: 300px; margin-top:50px;">
+           
+            <div class="projects col-sm-6 col-md-3 col-lg-3"><img src="images/Thrifters.png" class="img-fluid" alt=""></div>
+            <div class="projects col-sm-6 col-md-3 col-lg-3"></div>
+            <div class="projects col-sm-6 col-md-3 col-lg-3"></div>
+            <div class="projects col-sm-6 col-md-3 col-lg-3"></div>
+            <div class="projects col-sm-6 col-md-3 col-lg-3"></div>
+            <div class="projects col-sm-6 col-md-3 col-lg-3"></div>
+        </div>
+
+    </div>
+</section>
     <div class="container">
         <div class="row">
             <div class="Wrapper2 col-12">
-                Copyright © 2019 <a href="http://localhost/wordpress/">ham8821's</a>. All Rights Reserved.  | Catch Vogue&nbsp;by&nbsp;<a target="_blank" href="https://catchthemes.com/">Catch Themes</a>		</div> <!-- .site-info -->
+                Copyright © 2019 ham8821's. All Rights Reserved.  | 	</div> <!-- .site-info -->
         </div> 
     </div>
 </body>

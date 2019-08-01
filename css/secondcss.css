@@ -9,9 +9,8 @@
 body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-
-    margin: 0;
-    
+    width: 100%;
+    margin: 0%; 
   }
   
 
@@ -42,14 +41,52 @@ body, html {
 }
 .site-title{
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 3.5rem;
     color: rgba(242, 201, 21, 1);
+    margin-top: 28px;
+    margin-bottom:20px;
 }
 ul{
     list-style-type: none;
+    
 }
 ul a{
     text-decoration: none;
     color: white;
     margin-right: 20px;
+    
 }
+li{
+    margin-top:27px;
+    font-size: 1.7rem;
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeIn {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+/* ---projects----------------------------------- */
+.projects{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 200px;
+    margin:15px 10px;
+    position: relative;
+}
+.container-fluid { 
+    padding: 0px;
+  }

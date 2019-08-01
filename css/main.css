@@ -9,9 +9,10 @@
 body, html {
   height: 100%;
   font-family: 'Roboto', sans-serif;
-
   margin: 0;
   scroll-behavior: smooth;
+  width:100%;
+   transition: opacity .5s;
 }
 /* navbar */
 .navbar-fixed-top{
@@ -395,4 +396,23 @@ div#navbar.navbar-collapse{
 #aboutmeicon{
     margin-left:0;
     padding-left:0;
+}
+/* page transition */
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
