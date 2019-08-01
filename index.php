@@ -8,8 +8,8 @@
     <title>Emma Ham_ portfolio_mainpage</title>
 
     <?php
-  include_once("partials/head.php");
-  ?>
+    include_once("partials/head.php");
+    ?>
 </head>
 
 <body id="topsection">
@@ -42,7 +42,7 @@
     <header id="intro">
         <div class="container-fluid full-screen">
             <div class="row">
-                <div class="mainscreen col-xs-12 col-sm-12 col-md-12">
+                <div class="mainscreen col-xs-12 col-sm-12 col-md-12" style="height: 100vh;">
 
                     <p class="greetingtitle">Hi, I'm Emma. Nice to meet you.</p>
                 </div>
@@ -58,12 +58,21 @@
 
         <div class="container-fluid full-screen">
             <div class="row">
-                <div class="introscreen col-xs-12 col-md-12">
+                <div class="introscreen col-xs-12 col-md-12" style="height: 100vh;">
                     <div id="introductionbox">
-                        <br><br><br><br>r><br><br><br><br>
-                        <p class="jobtitle1">Front-end developer </p>
-                        <p class="jobtitle" id="secondtitle">&nbsp &nbsp & Back-end developer</p>
-                        <p class="intro">Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+
+                        <p class="jobtitle" style=" margin-top: 10%;">Front-end developer </p>
+                        <p class="jobtitle">&nbsp &nbsp & Back-end developer</p>
+                        <br>
+                        <br>
+                        <div class="collapse navbar-collapse" id="extrades">
+                            <p class="intro">Having completed bachelor degree in Business Administration and Graduate Diploma in Information Technology this year, I've been always pursuing learning new things day by day. <br> What I always make sure in daily basis is whether I have learnt new things apart from school study scope, having personal projects aside all the time. At the moment, I am working for this liquor speacialist company, building their official website as a contract developer. If you are interested, you can have a look some of my works here.</p>
+                        </div>
+                        <br><br>
+                        <p class="intro"> I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+                        <button type="button" style="background-color:black; color: white; border-radius:5px; float:none; font-size:1.2em; border:none;"  class="navbar-toggle readmore" data-toggle="collapse" data-target="#extrades">
+                            <span>READ MORE</span>
+                        </button>
 
                     </div>
                 </div>
@@ -76,7 +85,7 @@
     <section id="works">
         <div class="container-fluid full-screen">
             <div class="row">
-                <div class="workscreen col-xs-12 col-md-12">
+                <div class="workscreen col-xs-12 col-md-12" style="height: 100vh;">
                     <br><br><br><br><br><br><br> <br><br><br><br><br><br><br>
                     <p class="recentwork">My recent Projects</p>
 
@@ -91,7 +100,7 @@
     <section id="extra">
         <div class="container-fluid full-screen">
             <div class="row">
-                <div class="extra col-12">
+                <div class="extra col-12" style="height: 100vh;">
                     <br><br><br><br><br>
                     <h2 class="extraheading"> Little extra about me</h2>
                     <p class="extrabox">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio consectetur temporibus at ut. Atque quidem reprehenderit laudantium tempore voluptate dignissimos voluptatum magnam impedit, dolorem aliquid, non fuga alias sequi Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloremque ipsum architecto iure tenetur distinctio praesentium consequuntur, repellendus nulla explicabo vero, iusto in? Excepturi assumenda, quam sapiente sunt dolorem placeat?></p>
@@ -105,7 +114,7 @@
     <section class="contactscreen" id="Contact">
         <div class="container-fluid full-screen">
             <div class="row">
-                <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-12" style="height: 100vh;">
                     <br><br><br><br><br>
                     <h2 class="contact">Let's build something togather!</h2>
                     <br>
@@ -127,52 +136,13 @@
         </div>
     </section>
     <!-- ---------------------------------------------------------------------------- -->
-    <section id="footer">
-        <br><br><br>
-        <div class="row">
-            <br>
-            <div class="socialicons col-12">
-                <ul>
-                    <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
 
-            </div>
-        </div>
-        <br><br>
-        <div class="row">
-            <div class="footerline col-12">
-                <p class="line">Programming is not about being better than others, it’s about whether you can work with others or not.
-                </p>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="codeline col-12">
-                <div style="font-size: 2.5rem;">
-                    <i id="codeicon" class="fa fa-code fa-lg" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="codeline col-12">
-                <p class="line">
-                    Handcrafted by me # emma.hj.ham@gmail.com
-                </p>
-            </div>
-        </div>
-        <br>
-
-    </section>
     <?php
-    include_once("partials/indicatorUp.php");
-    // include_once("partials/footer.php");
+    // include_once("partials/indicatorUp.php");
+    include_once("partials/footer.php");
     include_once("partials/foot.php");
 
     ?>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
