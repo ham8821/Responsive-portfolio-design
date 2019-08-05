@@ -37,7 +37,7 @@
           <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                   <div class="codeline col-12">
-                      <p class="line">
+                      <p class="line" style="text-align:center;">
                           <i id="codeicon" class="fa fa-code fa-sm" style="font-size:1.75rem;" aria-hidden="true"></i>
 
                           Handcrafted by me # emma.hj.ham@gmail.com
@@ -59,7 +59,7 @@
   </footer>
   <style>
       .saboxplugin-socials .fa {
-          font-family: FontAwesome;
+          font-family: 'Roboto', sans-serif;
       }
 
       h6 {
@@ -67,12 +67,14 @@
       }
 
       .site-footer {
+          font-family: 'Roboto', sans-serif;
           width: 100%;
           background-color: #26272b;
           padding: 45px 0 20px;
-          font-size: 15px;
+          font-size: 1.5rem;
           line-height: 24px;
           color: #737373;
+          width:100%;
       }
 
       .footer_statement {
@@ -153,13 +155,15 @@
 
       @media (max-width:991px) {
           .site-footer [class^=col-] {
-              margin-bottom: 30px
+              margin-bottom: 30px;
+              padding: 0;
           }
       }
 
       @media (max-width:767px) {
           .site-footer {
-              padding-bottom: 0
+              padding-bottom: 0;
+              font-size:1.2rem;
           }
 
           .site-footer .copyright-text,

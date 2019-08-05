@@ -1,4 +1,3 @@
-
 /* 
  font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -6,68 +5,81 @@
     font-family: 'Playfair Display', serif;
 */
 
-body, html {
+body,
+html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    margin: 0%; 
-  }
-  
+    margin: 0%;
+}
 
-.wrapper{
+.wrapper {
     background: black;
     color: white;
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     width: 220px;
-    min-height: 640px;
+    /* min-height: 640px; */
+    height: 100vh;
     position: fixed;
     margin: 0;
     padding: 0;
     text-align: center;
-
 }
-.Wrapper2{
+
+.Wrapper2 {
     background: black;
     color: white;
     font-family: 'Oswald', sans-serif;
     position: fixed;
-    bottom:0;
+    bottom: 0;
+    left: 0;
     font-size: 10px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     height: 40px;
     margin: auto auto;
 }
-.site-title{
+
+.site-title {
     font-family: 'Playfair Display', serif;
     font-size: 3.5rem;
     color: rgba(242, 201, 21, 1);
     margin-top: 28px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-ul{
+
+ul {
     list-style-type: none;
-    
 }
-ul a{
+
+ul a {
     text-decoration: none;
     color: white;
     margin-right: 20px;
-    
 }
-li{
-    margin-top:27px;
+
+li {
+    margin-top: 27px;
     font-size: 1.7rem;
 }
+
 @-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .fadeIn {
@@ -79,14 +91,106 @@ li{
     animation-name: fadeIn;
 }
 
+
 /* ---projects----------------------------------- */
-.projects{
+
+.projects {
     border: 1px solid black;
     border-radius: 25px;
     height: 200px;
-    margin:15px 10px;
+    margin: 15px 10px;
     position: relative;
 }
-.container-fluid { 
+
+.container-fluid {
     padding: 0px;
-  }
+}
+
+
+/* works page design */
+
+.headpart {
+    width: 100vw;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/smpke.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 150px));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 150px));
+    display: table;
+}
+
+.projecthead {
+    display: table-cell;
+    vertical-align: middle;
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+    height: 100%;
+    /* padding: 200px auto; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-height:600px) {
+    .projecthead {
+        margin-bottom: 100px;
+    }
+    .headpart {
+        height: 90vh;
+    }
+    .workpage {
+        margin: -150px auto 0;
+    }
+}
+
+.projectmain {
+    /* display: table-cell;
+    vertical-align: middle; */
+    color: white;
+    font-size: 4em;
+}
+
+@media(max-width:600px) {}
+
+.morebtn {
+    position: absolute;
+    top: 0;
+    right: -26px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white!important;
+    border-radius: 5px;
+}
+
+.morebtn a {
+    color: white!important;
+    text-decoration: none;
+}
+
+.morebtn:hover,
+.morebtn:hover a {
+    background-color: white;
+    color: black!important;
+    text-decoration: none;
+}
+
+.workpage {
+    margin: -150px auto 0;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(0deg, #E5E5E5 0%, #fff 100%);
+    box-shadow: 0 4px 15px 0 rgba(124, 99, 84, 1);
+    position: relative;
+    z-index: 3;
+    padding: 20px 0 70px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    height: 600px;
+    width: 80%;
+}

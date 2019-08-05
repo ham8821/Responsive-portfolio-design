@@ -33,9 +33,9 @@
 <div class="header-overlay"></div>
 
 <div class="menu-toggle-wrapper">
-    <button id="menu-toggle" class="menu-toggle" aria-controls="top-menu" aria-expanded="false" data-toggle="collapse" data-target="#site-navigation">
+    <button type="button" id="menu-toggle" class="menu-toggle" aria-controls="top-menu" aria-expanded="false" data-toggle="collapse" data-target="#site-navigation">
         <div class="menu-bars">
-            <div class="bars bar1"></div>
+              <div class="bars bar1"></div>
               <div class="bars bar2"></div>
               <div class="bars bar3"></div>
           </div>
@@ -71,7 +71,7 @@
     <div class="container-fluid">
         <div class="row" style="padding-left: 300px; margin-top:50px;">
            
-            <div class="projects col-sm-6 col-md-3 col-lg-3"><img src="images/Thrifters.png" class="img-fluid" alt=""></div>
+            <!-- <div class="projects col-sm-6 col-md-3 col-lg-3"><img src="images/Thrifters.png" class="img-fluid" alt=""></div> -->
             <div class="projects col-sm-6 col-md-3 col-lg-3"></div>
             <div class="projects col-sm-6 col-md-3 col-lg-3"></div>
             <div class="projects col-sm-6 col-md-3 col-lg-3"></div>
@@ -81,11 +81,11 @@
 
     </div>
 </section>
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="Wrapper2 col-12">
-                Copyright © 2019 ham8821's. All Rights Reserved.  | 	</div> <!-- .site-info -->
+                Copyright © 2019 ham8821's. All Rights Reserved.  | 	</div> 
         </div> 
-    </div>
+    </div> -->
 </body>
 </html>

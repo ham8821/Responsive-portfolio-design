@@ -24,7 +24,8 @@ display: block!important;
 }
 .navbar-brand{
   color:white!important;
-  font-size: 15px;
+  font-size: 1em;
+  transition: all ease .3s;
 }
 .navbar-fixed-top a{
   background-color: transparent!important;
@@ -32,12 +33,32 @@ display: block!important;
   display: block!important;
 
 }
+.logoline{
+  width: 7%;
+  height:5px;
+  border-radius:25px;
+  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+  content: " ";
+  position:absolute;
+  top:40px;
+  left:30px;
+  
+}
+.navbar-brand:hover + .logoline{
+  
+  width: 3%;
+  transition: all ease .3s;
+
+}
 /* -- */
 div#navbar.navbar-collapse{
   text-align: center;
 }
 
-
+.hideme
+{
+    opacity:0;
+}
 @media screen and (max-width: 767px) {
   div#myNavbar.navbar-collapse.collapse.in {
     background-color: rgba(48, 43, 41,0.8);
@@ -53,7 +74,7 @@ div#navbar.navbar-collapse{
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
-  
+  height: 100vh;
 }
 
 .greetingtitle{
@@ -62,6 +83,7 @@ div#navbar.navbar-collapse{
   font-weight: 700;
   color:rgba(48, 43, 41,1);
   position: absolute;
+  opacity:0;
 /* Centering */
   top: 50%;
   left: 50%;
@@ -82,7 +104,7 @@ div#navbar.navbar-collapse{
 
 .introscreen{
   background-image: url("../images/wallpaper2.jpg");
-  height: 100vh;
+  height: 110vh;
   background-size: cover;
   text-align: center;
   background-attachment: scroll;
@@ -92,13 +114,14 @@ div#navbar.navbar-collapse{
 #introductionbox{
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  
+  display: table-cell;
+  vertical-align: middle;
  }
-
 
 .jobtitle{
   font-weight: 700;
   font-size: 3em;
+  width: 100%;
 }
 @media screen and (max-width: 600px) {
 .jobtitle {
@@ -122,107 +145,14 @@ div#navbar.navbar-collapse{
     font-size: 10px;
   }
 }
-@media screen and (max-height: 400px) {
-  .introscreen{
-    height: 100%;
-  }
-}
-
-/* button design */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.buttons {
-  margin: 10%;
-  text-align: center;
-}
-
-.btn-hover {
-  width: 200px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
-  margin: 20px;
-  height: 55px;
-  text-align:center;
-  border: none;
-  background-size: 300% 100%;
-
-  border-radius: 50px;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.btn-hover:hover {
-  background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.btn-hover:focus {
-  outline: none;
-}
-
-.btn-hover.color-1 {
-  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-}
-.btn-hover.color-2 {
-  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
-  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-}
-.btn-hover.color-3 {
-  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
-  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
-}
-.btn-hover.color-4 {
-  background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
-  box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
-}
-.btn-hover.color-5 {
-  background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
-  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
-}
-.btn-hover.color-6 {
-  background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
-  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
-}
-.btn-hover.color-7 {
-  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
-  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
-}
-.btn-hover.color-8 {
-  background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
-  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
-}
-.btn-hover.color-9 {
-  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
-  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
-}
-.btn-hover.color-10 {
-      background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
-  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-}
-.btn-hover.color-11 {
-     background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
-}
-
-
-
+#parentjob {display: table;}
 
 /* ------------------------------------------------------------ */
 .workscreen{
   background-image: url("../images/wallpaper3_2.jpg");
   background-size: cover;
   text-align: center;
+  height: 100vh;
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
@@ -238,14 +168,20 @@ div#navbar.navbar-collapse{
   color:rgba(242, 201, 21, 1);
   width: 50px;
   height: 50px;
-  position: absolute;
-  right: 30%;
+  margin-bottom:100px;
 }
-
+.iconbox:hover{
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  /* margin-top:-10px;
+  margin-right:-10px; */
+}
 /*  */
 .extra{
   background-image: url("../images/wallpaper13.jpg");
   background-size: cover;
+  height: 100vh;
+  width:100vw;
   text-align: center;
   background-attachment: scroll;
   background-position: center center;
@@ -274,8 +210,11 @@ div#navbar.navbar-collapse{
   margin-right: 30px;
 
 }
-
-
+#parentextra {display: table;}
+#childextra{
+  display: table-cell;
+  vertical-align: middle;
+}
 @media screen and (min-width: 601px) {
   .extrabox {
       font-size: 20px;
@@ -295,8 +234,7 @@ div#navbar.navbar-collapse{
 /* ------------------------------------------------- */
 .contactscreen{
   background-image: url("../images/wallpaper18.jpg");
-  /* height: 100%;
-  min-height: 625px; */
+  height: 100vh;
   background-size: cover;
   text-align: center;
   background-attachment: scroll;
@@ -320,7 +258,7 @@ div#navbar.navbar-collapse{
 }
 .contactform{
  max-width:500px;
- margin: 0px 60px;
+ margin: 20px 60px;
  /* border: 1px black dashed; */
  
 }
@@ -356,87 +294,11 @@ div#navbar.navbar-collapse{
   margin: 0 auto;
   padding: 0 0;
   font-family: 'Roboto', sans-serif;
-  color:rgba(48, 43, 41,1);
-}
-
-/* footer---------------------------------------------- */
-#footer{
-  background: #3C3B3F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  color:white;
-  text-align: center;
-}
-.socialicons ul {
-  position:absolute;
-  /* top:50%; */
-  left:50%;
-  transform: translate(-50%, -50%);
-  margin:0;
-  padding:0;
-  display:flex;
-}
-
-.socialicons ul li {
-  list-style: none;
-}
-
-.socialicons ul li a {
-  position: relative;
-  width:40px;
-  height:40px;
-  display:block;
-  text-align:center;
-  margin:0 10px;
-  border-radius: 50%;
-  padding: 6px;
-  box-sizing: border-box;
-  text-decoration:none;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-  background: linear-gradient(0deg, #ddd, #fff);
-  transition: .5s;
-}
-
-.socialicons ul li a:hover {
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-}
-
-.socialicons ul li a .fa {
-  width: 60%;
-  height:60%;
-  display:block;
-  background: linear-gradient(0deg, #fff, #ddd);
-  border-radius: 50%;
-  line-height: calc(60px - 12px);
-  font-size:24px;
-  color: #262626;
-  transition: .5s;
-}
-
-.socialicons ul li {
-  text-align: center;
-}
-.socialicons ul li:nth-child(1) a:hover .fa {
-  color: rgba(242, 201, 21, 1);
-}
-
-.socialicons ul li:nth-child(2) a:hover .fa {
-  color: rgba(242, 201, 21, 1);
-}
-
-.socialicons ul li:nth-child(3) a:hover .fa {
-  color: rgba(242, 201, 21, 1);
-}
-
-.socialicons ul li:nth-child(4) a:hover .fa {
-  color: rgba(242, 201, 21, 1);
+  color:rgba(48, 43, 41,1)!important;
+  font-size:14px!important;
 }
 
 
-.socialicons ul li:nth-child(5) a:hover .fa {
-  color: rgba(242, 201, 21, 1);
-}
 
 .line{
   /* font-family: 'Roboto', sans-serif; */
@@ -455,6 +317,20 @@ div#navbar.navbar-collapse{
 #aboutmeicon{
     margin-left:0;
     padding-left:0;
+}
+@media screen and (max-height: 600px) {
+  .introscreen{
+    height: 100%;
+  }
+  .workscreen{
+    height: 100%;
+  }
+  .extra{
+    height: 100%;
+  }
+  .contactscreen{
+    height: 100%;
+  }
 }
 /* page transition */
 @-webkit-keyframes fadeIn {
