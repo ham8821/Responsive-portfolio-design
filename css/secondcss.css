@@ -5,8 +5,7 @@
     font-family: 'Playfair Display', serif;
 */
 
-body,
-html {
+body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -91,7 +90,6 @@ li {
     animation-name: fadeIn;
 }
 
-
 /* ---projects----------------------------------- */
 
 .projects {
@@ -106,7 +104,6 @@ li {
     padding: 0px;
 }
 
-
 /* works page design */
 
 .headpart {
@@ -114,7 +111,7 @@ li {
     height: 70vh;
     margin: 0;
     padding: 0;
-    background-image: url(../images/smpke.jpg);
+    background-image: url(../images/smoke3.jpg);
     background-size: cover;
     background-attachment: scroll;
     background-position: center center;
@@ -130,11 +127,10 @@ li {
     vertical-align: middle;
     opacity: 0;
     text-align: center;
-    position: absolute;
-    top: 26%;
-    left: 40%;
+    position: relative;
+    left: 0em;
+    top: 1em;
     height: 100%;
-    /* padding: 200px auto; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -154,19 +150,23 @@ li {
     /* display: table-cell;
     vertical-align: middle; */
     color: white;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
-@media(max-width:600px) {}
+@media(max-width:600px) {
+    .projectmain {
+        font-size: 35px;
+    }
+}
 
 .morebtn {
-    position: absolute;
-    top: 0;
-    right: -26px;
     background-color: transparent;
     border: 2px solid white;
     color: white!important;
     border-radius: 5px;
+    position: relative;
+    left: 0em;
+    top: -2.5em;
 }
 
 .morebtn a {
@@ -174,8 +174,7 @@ li {
     text-decoration: none;
 }
 
-.morebtn:hover,
-.morebtn:hover a {
+.morebtn:hover, .morebtn:hover a {
     background-color: white;
     color: black!important;
     text-decoration: none;
@@ -187,10 +186,70 @@ li {
     background: linear-gradient(0deg, #E5E5E5 0%, #fff 100%);
     box-shadow: 0 4px 15px 0 rgba(124, 99, 84, 1);
     position: relative;
-    z-index: 3;
+    /* z-index: 3; */
     padding: 20px 0 70px;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
-    height: 600px;
+    height: 100%;
     width: 80%;
+    font-family: 'Montserrat', sans-serif;
+}
+.card{
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    height:100%;
+}
+.imgcard{
+    width: 100%;
+}
+.descard{
+    height:100%;
+    width: 100%;
+}
+.workimg{
+max-width: 100%;
+overflow: hidden;
+}
+
+.workwrapper {
+    display: grid;
+    padding: 20px;
+    /* grid-auto-rows: minmax(100px, auto); */
+    /* grid-gap: 20px; */
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto); */
+    /* grid-template-columns: 40% 40%;
+    grid-template-rows: 300px 300px 300px; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 450px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+.projectdescription{
+padding: 10px;
+height:100vh;
+}
+.projectarea{
+    font-size: 1.1rem;
+    color: rgba(48, 43, 41,1);
+}
+.projectname{
+    font-size: 1.4rem;
+    font-weight:700;
+}
+.projecttech{
+    color: #6253e1;
+    font-size: 1.2rem;
+}
+.projecttech:hover{
+    color:  #F24645;
+    font-weight:700;
+}
+.work-content .w-like {
+    font-size: 2.5rem;
+    color: #0078ff;
+    float: right;
+}
+.w-like{
+    position: absolute;
+    right: 10%;
 }
