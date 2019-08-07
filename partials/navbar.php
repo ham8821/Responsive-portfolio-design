@@ -7,7 +7,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Emma Ham <a class="logoline"></a></a><br>
+                    <a class="navbar-brand" href="index.php">Emma Ham <a class="logoline"></a></a><br>
                    
                 </div>
 
