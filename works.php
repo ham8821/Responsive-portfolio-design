@@ -44,8 +44,13 @@
 
                     <div class="card">
 
-                        <div class="col-12 imgcard">
-                            <img class="workimg img-responsive" src="images/liquorlibrary.png" alt="">
+                    <div class="col-12 imgcard">
+                            <div class="imgwrapper">
+                                <div class="overlay"></div>
+                                <img class="workimg img-responsive" src="images/liquorlibrary.png" alt="">
+                                <div class="buttonsrc"><a href="#"> View Source Code </a></div>
+
+                            </div>
                         </div>
                         <div class="col-12 descard">
                             <div class="projectdescription">
