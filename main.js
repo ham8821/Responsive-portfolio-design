@@ -1,13 +1,29 @@
 window.transitionToPage = function(href) {
-    document.querySelector('body').style.opacity = 0
-    setTimeout(function() { 
-        window.location.href = href
-    }, 500)
+  document.querySelector('body').style.opacity = 0
+  setTimeout(function() { 
+    window.location.href = href
+  }, 500)
 }
 
 document.addEventListener('DOMContentLoaded', function(event) {
-    document.querySelector('body').style.opacity = 1
+  document.querySelector('body').style.opacity = 1
 })
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 80)  /*height in pixels when the navbar becomes non opaque*/ {
+      $('.opaque-navbar').addClass('opaque');
+  } else {
+      $('.opaque-navbar').removeClass('opaque');
+  }
+});
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 80)  /*height in pixels when the navbar becomes non opaque*/ {
+      $('.aboutmain').addClass('opaque');
+  } else {
+      $('.fourth-text').removeClass('opaque');
+  }
+});
 
 $( document ).ready(function() {
     $('body').show();

@@ -1,4 +1,4 @@
-<nav class="navbar-fixed-top navbar-default">
+<nav class="navbar-fixed-top navbar-default opaque-navbar">
         <div class="container-fluid">
             <div id="navbar" class="navbar-collapse">
                 <div class="navbar-header">

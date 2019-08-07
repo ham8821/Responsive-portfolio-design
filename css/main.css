@@ -22,6 +22,12 @@ font-family: 'Roboto', sans-serif!important;
 display: block!important;
 
 }
+.opaque-navbar.opaque {
+  background-color: black!important;
+  height: 90px!important;
+  transition: background-color .6s ease 0s;
+  color: white!important;
+}
 .navbar-brand{
   color:white!important;
   font-size: 1em;
