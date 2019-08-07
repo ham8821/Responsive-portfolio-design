@@ -111,7 +111,7 @@ li {
     height: 70vh;
     margin: 0;
     padding: 0;
-    background-image: url(../images/smoke3.jpg);
+    background-image: url(../images/projectback2.jpg);
     background-size: cover;
     background-attachment: scroll;
     background-position: center center;
@@ -149,8 +149,9 @@ li {
 .projectmain {
     /* display: table-cell;
     vertical-align: middle; */
-    color: white;
-    font-size: 3.5em;
+    color: rgba(48, 43, 41,1);
+
+    font-size: 4em;
 }
 
 @media(max-width:600px) {
@@ -158,15 +159,19 @@ li {
         font-size: 35px;
     }
 }
-
 .morebtn {
-    background-color: transparent;
-    border: 2px solid white;
+    background-color: rgba(48, 43, 41,1);
+    border: none;
     color: white!important;
     border-radius: 5px;
     position: relative;
     left: 0em;
     top: -2.5em;
+}
+.morebtn:hover {
+    background-color: transparent;
+    border: 2px solid rgba(48, 43, 41,1);
+    color: rgba(48, 43, 41,1)!important;
 }
 
 .morebtn a {
@@ -175,14 +180,14 @@ li {
 }
 
 .morebtn:hover, .morebtn:hover a {
-    background-color: white;
-    color: black!important;
+    background-color: transparent;
+    color: rgba(48, 43, 41,1)!important;
     text-decoration: none;
 }
 
 .workpage {
-    margin: -150px auto 0;
-    border-radius: 10px 10px 0 0;
+    margin: -150px auto 50px;
+    border-radius: 10px 10px 10px 10px;
     background: linear-gradient(0deg, #E5E5E5 0%, #fff 100%);
     box-shadow: 0 4px 15px 0 rgba(124, 99, 84, 1);
     position: relative;
@@ -233,7 +238,7 @@ li {
     row-gap: 40px;
 }
 
-@media(max-width:700px) {
+@media(max-width:800px) {
     .workwrapper {
         display: grid;
         padding: 40px;
@@ -379,21 +384,24 @@ li {
     float: none;
     border: none;
 }
-.gallerybtn i{
-margin-right:3px;
+
+.gallerybtn i {
+    margin-right: 3px;
 }
-.gallerybtn:hover{
+
+.gallerybtn:hover {
     background-color: white;
-    color:black;
+    color: black;
     border: 1px solid black;
     transition: all 0.5s ease;
 }
+
 .mobilewrapper {
     width: 150px;
     height: 100%;
     position: absolute;
     right: 0;
-    margin-top: -70px;
+    margin-top: -100px;
 }
 
 .workmobileimg {
@@ -401,12 +409,26 @@ margin-right:3px;
     overflow: hidden;
 }
 
-@media(max-width:600px) {
+@media(max-width:1000px) {
     .mobilewrapper {
         width: 100px;
         height: 100%;
-        position: absolute;
-        right: 0;
+        position: relative;
+        float: right;
         margin-top: -50px;
     }
+    .pre{
+        display: none;
+    }
+}
+
+.modal-backdrop {
+    z-index: 1040 !important;
+}
+.modal-dialog {
+    margin: 2px auto;
+    z-index: 1100 !important;
+}.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
 }

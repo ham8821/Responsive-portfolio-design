@@ -136,3 +136,8 @@ btnClose.addEventListener('click', function(e) {
   dynamics.setTimeout(toggleClasses, 500);
   dynamics.setTimeout(showBtn, 500);
 });
+
+function showEditor() {
+    $("#work1modal").modal("show");
+    $("#work1modal").appendTo("body");
+}

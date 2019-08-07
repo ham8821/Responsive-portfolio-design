@@ -10,7 +10,6 @@
     <?php
     include_once("partials/head.php");
     include_once("css/style.php");
-    // include_once("partials/work1.php");
     ?>
     <script>
         $(document).ready(function() {
@@ -27,6 +26,7 @@
     <!-- navbar -->
     <?php
     include_once("partials/navbar.php");
+    include_once("partials/work1_liquor.php");
     ?>
     <!-- /.navbar -->
     <!--head part  -->
@@ -52,7 +52,7 @@
                                 <div class="buttonvideo"><a href="#"><i class="far fa-play-circle"></i> Play Video </a></div>
                                 <div class="mobilewrapper">
                                 <img class="workmobileimg img-responsive" src="images/liquor_mobile.png" alt="">
-                                <button class="gallerybtn"><i class="fas fa-arrows-alt"></i>Preview</button>
+                                <button class="gallerybtn" data-toggle="modal"  onclick="showEditor();"><i class="fas fa-arrows-alt"></i> <span class="pre">Preview</span></button>
                                 </div>
 
                             </div>
@@ -76,14 +76,14 @@
                                 <div class="buttonvideo"><a href="#"><i class="far fa-play-circle"></i> Play Video </a></div>
                                 <div class="mobilewrapper">
                                 <img class="workmobileimg img-responsive" src="images/thrifters_mobile.png" alt="">
-                                <button class="gallerybtn"><i class="fas fa-arrows-alt"></i>Preview</button>
+                                <button class="gallerybtn"><i class="fas fa-arrows-alt"></i><span class="pre">Preview</span></button>
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-12 descard">
                             <div class="projectdescription">
-                                    <p class="projectname">Liquor Library Official Online</p>
+                                    <p class="projectname">Thrifters Online Shopping</p>
                                     <p class="projectarea">Web development <span class="projectduration">/Mar 2019-present</span></p>
                                     <p class="projecttech">PHP, MySQL,HTML, CSS, JavaScript,<br> JQuery, Ajax,
                                     bootstrap 4 ,git, azure DevOps, AWS</p>
@@ -100,14 +100,14 @@
                                 <div class="buttonvideo"><a href="#"><i class="far fa-play-circle"></i> Play Video </a></div>
                                 <div class="mobilewrapper">
                                 <img class="workmobileimg img-responsive" src="images/itonline_mobile.png" alt="">
-                                <button class="gallerybtn"><i class="fas fa-arrows-alt"></i>Preview</button>
+                                <button class="gallerybtn"><i class="fas fa-arrows-alt"></i><span class="pre">Preview</span></button>
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-12 descard">
                             <div class="projectdescription">
-                                    <p class="projectname">Liquor Library Official Online</p>
+                                    <p class="projectname">IT Online Tutorial Hub</p>
                                     <p class="projectarea">Web development <span class="projectduration">/Mar 2019-present</span></p>
                                     <p class="projecttech">PHP, MySQL,HTML, CSS, JavaScript,<br> JQuery, Ajax,
                                     bootstrap 4 ,git, azure DevOps, AWS</p>
@@ -124,14 +124,14 @@
                                 <div class="buttonvideo"><a href="#"><i class="far fa-play-circle"></i> Play Video </a></div>
                                 <div class="mobilewrapper">
                                 <img class="workmobileimg img-responsive" src="images/carrental_mobile.png" alt="">
-                                <button class="gallerybtn"><i class="fas fa-arrows-alt"></i>Preview</button>
+                                <button class="gallerybtn"><i class="fas fa-arrows-alt"></i><span class="pre">Preview</span></button>
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-12 descard">
                             <div class="projectdescription">
-                                    <p class="projectname">Liquor Library Official Online</p>
+                                    <p class="projectname">Car Rental Booking Online</p>
                                     <p class="projectarea">Web development <span class="projectduration">/Mar 2019-present</span></p>
                                     <p class="projecttech">PHP, MySQL,HTML, CSS, JavaScript,<br> JQuery, Ajax,
                                     bootstrap 4 ,git, azure DevOps, AWS</p>
@@ -139,28 +139,7 @@
                         </div>
 
                     </div>
-                    <div class="card">
-                        <div class="col-12 imgcard">
-                            <img class="workimg img-responsive" src="images/itonline.png" alt="">
-                        </div>
-
-                    </div>
-                    <div class="card">
-                        <div class="col-12 imgcard">
-                            <img class="workimg img-responsive" src="images/itonline.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="col-12 imgcard">
-                            <img class="workimg img-responsive" src="images/carrental.png" alt="">
-                        </div>
-
-                    </div>
-                    <div class="card">
-                        <div class="col-12 imgcard">
-                            <img class="workimg img-responsive" src="images/carrental.png" alt="">
-                        </div>
-                    </div>
+                 
                 </div>
             </div>
         </div>
