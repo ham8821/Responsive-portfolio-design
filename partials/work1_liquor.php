@@ -1,35 +1,314 @@
-<div class="modal fade" id="work1modal" tabindex="-1" role="dialog" data-background="false" aria-labelledby="ModalCarouselLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div id="carousel-modal-demo" class="carousel slide" data-ride="carousel">
-
-  
-
- <!-- Sliding images statring here --> 
-   <div class="carousel-inner"> 
-    <div class="item"> 
-      <img src="images/liquor1.png" alt="banana"> 
-    </div> 
-    <div class="item"> 
-      <img src="images/liquor4.png" alt="currant"> 
-   </div> 
-    <div class="item"> 
-      <img src="images/liquor3.png" alt="mango"> 
+<div style="display:none;">
+        <div id="ninja-slider">
+            <div class="slider-inner">
+                <ul>
+                    <li>
+                        <a class="ns-img" href="images/liquor1.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="images/liquor2.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <span class="ns-img" style="background-image:url(images/liquor3.png);"></span>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="images/liquor4.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="images/liquor5.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="images/liquor6.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="images/liquor8.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                </ul>
+                <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+            </div>
+        </div>
     </div>
-    <div class="item active"> 
-      <img src="images/liquor5.png" alt="strawberries"> 
-    </div> 
-     
-  </div> 
-  <!-- Next / Previous controls here -->
-  <a class="left carousel-control" href="#carousel-modal-demo" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-modal-demo" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-  
-</div>
-    </div>
-  </div>
-</div>
+
+    <style>
+        body {font: normal 0.9em Arial;margin:0;background:#f5f5f5;}
+        a {color:#1155CC;}
+        ul li {padding: 10px 0;}
+        header {display:block;padding:60px 0 10px;background-color:#191919;text-align:center;}
+        header a {
+            font-family: sans-serif;
+            font-size: 24px;
+            line-height: 24px;
+            padding: 8px 13px 7px;
+            color: #4d5256;
+            text-decoration:none;
+            transition: color 0.7s;
+        }
+        header a.active {
+            font-weight:bold;
+            width: 24px;
+            height: 24px;
+            padding: 4px;
+            text-align: center;
+            display:inline-block;
+            border-radius: 50%;
+            background: #4d5256;
+            color: #191919;
+        }
+        .gallery img{
+            width:179px;
+            cursor:pointer;
+        }
+        /* Visit http://www.menucool.com/responsive-slider for instructions */
+
+#ninja-slider {
+    width:100%;
+    background:#191919;
+    padding: 0;
+
+    margin:0 auto;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+
+
+#ninja-slider .fs-icon {
+    top:6px;
+    right:6px;
+    width:60px;
+    height:26px;
+    background: rgba(0,0,0,0.2);
+    z-index:2;
+    color:white;
+    text-align:center;
+    text-shadow:0 0 3px black;
+    font:bold 18px/36px arial;
+    border-radius:2px;
+    opacity:0;
+    -webkit-transition:opacity 0.8s;
+    transition:opacity 0.8s;
+}
+
+#ninja-slider .slider-inner:hover .fs-icon,
+#ninja-slider.fullscreen .fs-icon {
+    opacity: 1;
+}
+
+#ninja-slider .fs-icon::before {      
+    content:"EXPAND";
+    display:block;
+}
+
+#ninja-slider.fullscreen .fs-icon::before {
+    content:"+";
+    display:block;
+    font-weight:bold;
+    font-size:3em;
+    transform: rotate(-45deg);
+}
+
+#ninja-slider .slider-inner {
+    /*max-width:700px;*/
+    margin:0 auto;/*center-aligned */
+    font-size:0px;
+    position:relative;
+    box-sizing:border-box;
+    padding-bottom:100px!important;
+}
+
+#ninja-slider.fullscreen .slider-inner {
+    width:98%; /* 100% will cause a big top gap issue in iPhone*/
+    max-width:900px;
+}
+
+#ninja-slider ul {
+    position:relative;
+    list-style:none;
+    padding:0;
+    box-sizing:border-box;
+
+    overflow:visible!important; /*For showing captions outside the slider when transitionType is "fade". */
+}
+
+#ninja-slider li {
+    
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position: absolute;
+    font-size:12px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    opacity:0;
+    /*overflow:hidden;*/ /*Comment it out to show the caption*/
+    box-sizing:border-box;
+
+    margin-bottom:100px!important;
+}
+
+#ninja-slider li.ns-show {
+    opacity:1;
+}
+
+
+
+/* --------- slider image ------- */  
+#ninja-slider .ns-img {
+    background-size:contain;/*Note: If transitionType is zoom, it will be overridden to cover.*/
+    cursor:default;
+    display:block;
+    position: absolute;
+    width:100%;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+
+/*---------- Captions -------------------*/
+#ninja-slider .caption {
+    position:absolute;
+    top:98%;
+    padding:0 40px;
+    margin:auto;
+    width:100%;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:14px;
+    color:#ccc;
+    box-sizing:border-box;    
+}
+
+
+/* ---------Arrow buttons ------- */   
+/* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */ 
+#ninja-slider-pause-play { display:none;}  
+
+#ninja-slider-prev, #ninja-slider-next
+{
+    position: absolute;
+    display:inline-block;
+    width:42px;
+    height:56px;
+    line-height:56px;
+    top: 40%; /* not 50% as caption at bottom should be counted.*/
+    margin-top:-28px;
+    background-color:rgba(0,0,0,0.4);
+    background-color:#ccc\9;/*IE8 hack*/
+    backface-visibility:hidden;
+    color:white;
+    overflow:hidden;
+    white-space:nowrap;
+    -webkit-user-select: none;
+    user-select:none;
+    border-radius:2px;
+    z-index:10;
+    opacity:0.3; 
+    font-family:sans-serif;   
+    font-size:13px;
+    cursor:pointer;
+    -webkit-transition:all 0.7s;
+    transition:all 0.4s;
+}
+
+.slider-inner:hover #ninja-slider-prev, .slider-inner:hover #ninja-slider-next {
+    opacity:1;
+}
+
+
+#ninja-slider-prev {
+    left: -42px; /*set it with a positive value if .slider-inner does not have max-width setting.*/
+}
+#ninja-slider-next {
+    right: -42px;
+}
+
+/* arrows */
+#ninja-slider-prev::before, #ninja-slider-next::before {
+    position: absolute;
+    top: 17px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    backface-visibility:hidden;
+}
+
+#ninja-slider-prev::before {
+    -ms-transform:rotate(-45deg);/*IE 9*/
+    -webkit-transform:rotate(-45deg);
+    transform: rotate(-45deg);
+    left:16px;
+}
+
+#ninja-slider-next::before {
+    -ms-transform:rotate(135deg);/*IE 9*/
+    -webkit-transform:rotate(135deg);
+    transform: rotate(135deg);
+    right:16px;
+}
+
+
+/*pagination num within the arrow buttons*/
+#ninja-slider-prev:hover, #ninja-slider-next:hover {width:80px;background-color:rgba(0,0,0,0.5);}
+#ninja-slider-prev div {margin-right:8px;white-space:nowrap;opacity:0;float:right;}
+#ninja-slider-next div {margin-left:8px;white-space:nowrap;opacity:0;float:left;}
+#ninja-slider-prev:hover div, #ninja-slider-next:hover div {opacity:1;}
+
+
+/*------ pager(nav bullets) ------*/      
+/* The pager id should be: slider id + "-pager" */
+#ninja-slider-pager { display:none;}   
+
+#ninja-slider-prev, #ninja-slider-next, #ninja-slider-pause-play
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+/*Responsive settings*/
+
+@media only screen and (max-width:1050px){
+    
+    #ninja-slider-prev {
+        left:0;
+    }
+
+    #ninja-slider-next {
+        right:0;
+    }
+}
+
+@media only screen and (max-width:600px){
+
+    #ninja-slider-prev, #ninja-slider-next, #ninja-slider-pager {
+        display:none;
+    }
+
+    
+    #ninja-slider li .cap1 {
+        font-size:20px;
+    }
+}
+
+
+    </style>

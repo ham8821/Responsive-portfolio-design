@@ -24,7 +24,7 @@ display: block!important;
 }
 .opaque-navbar.opaque {
   background-color: black!important;
-  height: 90px!important;
+  height: 50px!important;
   transition: background-color .6s ease 0s;
   color: white!important;
 }
@@ -55,6 +55,9 @@ display: block!important;
   width: 3%;
   transition: all ease .3s;
 
+}
+.navlist{
+  margin-top:0;
 }
 /* -- */
 div#navbar.navbar-collapse{
@@ -240,13 +243,13 @@ div#navbar.navbar-collapse{
 /* ------------------------------------------------- */
 .contactscreen{
   background-image: url("../images/wallpaper18.jpg");
-  height: 100vh;
+  /* height: 100vh; */
   background-size: cover;
   text-align: center;
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: -30;
 }
 .contact{
   color:rgba(48, 43, 41,1);
@@ -264,16 +267,12 @@ div#navbar.navbar-collapse{
 }
 .contactform{
  max-width:500px;
- margin: 20px 60px;
- /* border: 1px black dashed; */
- 
+ margin: 20px 60px; 
 }
 .inputbox {
  width: 100%;
  margin: 0px 8px;
  border-top: none;
-
-
 }
 .contactbutton{
   width: 100%;
@@ -286,12 +285,12 @@ div#navbar.navbar-collapse{
   font-weight: 200;
 }
 .contactbutton:hover{
-  background-color:rgb(165, 157, 154);
+  background-color:rgba(250, 188, 60, 1);
   /* border: 2px solid rgba(48, 43, 41,1); */
   color:rgba(48, 43, 41,1); 
 }
 .contactbutton:active{
-  background-color:rgb(165, 157, 154);
+  background-color:rgba(250, 188, 60, 1);
   box-shadow: 0 5px #666;
   transform: translateY(4px); 
 }

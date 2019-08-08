@@ -12,56 +12,6 @@ body, html {
     margin: 0%;
 }
 
-.wrapper {
-    background: black;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    width: 220px;
-    /* min-height: 640px; */
-    height: 100vh;
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.Wrapper2 {
-    background: black;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    font-size: 10px;
-    width: 100vw;
-    text-align: center;
-    height: 40px;
-    margin: auto auto;
-}
-
-.site-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 3.5rem;
-    color: rgba(242, 201, 21, 1);
-    margin-top: 28px;
-    margin-bottom: 20px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-ul a {
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-}
-
-li {
-    margin-top: 27px;
-    font-size: 1.7rem;
-}
 
 @-webkit-keyframes fadeIn {
     0% {
@@ -88,20 +38,6 @@ li {
     animation-fill-mode: both;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-}
-
-/* ---projects----------------------------------- */
-
-.projects {
-    border: 1px solid black;
-    border-radius: 25px;
-    height: 200px;
-    margin: 15px 10px;
-    position: relative;
-}
-
-.container-fluid {
-    padding: 0px;
 }
 
 /* works page design */

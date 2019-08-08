@@ -96,7 +96,7 @@
 
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="extra">
-        <div class="container-fluid full-screen" id="parentextra">
+        <div class="full-screen" id="parentextra">
             <div class="row" id="childextra">
                 <div class="extra col-12">
                     <br><br><br><br><br>
@@ -110,13 +110,13 @@
 
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="Contact">
-        <div class="container-fluid full-screen">
-            <!-- <div class="row"> -->
-                <div class=" contactscreen col-xs-12 col-md-12">
+        <div class="full-screen">
+            <div class="row">
+                <div class="container-fluid contactscreen col-12">
                     <br><br><br><br><br>
-                    <h2 class="contact hideme">Let's build something together!</h2>
+                    <h2 class="contact">Let's build something together!</h2>
                     <br>
-                    <div class="row hideme">
+                    <div class="row">
                         <div class="contactform col-sm-12 col-md-12 col-lg-12">
                             <div class="labelname"><label class="label">Name</label>*</div>
                             <div class="inputbox"><input class="inputbox" type="text" required></div>
@@ -126,11 +126,9 @@
                             <div class="inputbox"><textarea class="inputbox" name="" id="" cols="30" rows="10" placeholder="" required></textarea> </div>
                             <div class="inputbox"><button class="contactbutton">SUBMIT</button></div>
                         </div>
-
                     </div>
-
                 </div>
-            <!-- </div> -->
+            </div>
         </div>
     </section>
     <!-- ---------------------------------------------------------------------------- -->

@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 })
 
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 80)  /*height in pixels when the navbar becomes non opaque*/ {
+  if ($(this).scrollTop() > 130)  /*height in pixels when the navbar becomes non opaque*/ {
       $('.opaque-navbar').addClass('opaque');
   } else {
       $('.opaque-navbar').removeClass('opaque');
@@ -18,7 +18,7 @@ $(window).scroll(function () {
 });
 
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 80)  /*height in pixels when the navbar becomes non opaque*/ {
+  if ($(this).scrollTop() > 130)  /*height in pixels when the navbar becomes non opaque*/ {
       $('.aboutmain').addClass('opaque');
   } else {
       $('.fourth-text').removeClass('opaque');
@@ -153,7 +153,20 @@ btnClose.addEventListener('click', function(e) {
   dynamics.setTimeout(showBtn, 500);
 });
 
-function showEditor() {
-    $("#work1modal").modal("show");
-    $("#work1modal").appendTo("body");
+// image carousel
+function lightbox(idx) {
+  //show the slider's wrapper: this is required when the transitionType has been set to "slide" in the ninja-slider.js
+  var ninjaSldr = document.getElementById("ninja-slider");
+  ninjaSldr.parentNode.style.display = "block";
+
+  nslider.init(idx);
+
+  var fsBtn = document.getElementById("fsBtn");
+  fsBtn.click();
+}
+
+function fsIconClick(isFullscreen, ninjaSldr) { //fsIconClick is the default event handler of the fullscreen button
+  if (isFullscreen) {
+      ninjaSldr.parentNode.style.display = "none";
+  }
 }
