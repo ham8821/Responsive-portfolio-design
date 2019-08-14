@@ -112,7 +112,7 @@
     <section id="Contact">
         <div class="full-screen">
             <div class="row">
-                <div class="container-fluid contactscreen col-12">
+                <div class="container-fluid contactscreen col-12" style="height:100vh;">
                     <br><br><br><br><br>
                     <h2 class="contact">Let's build something together!</h2>
                     <br>

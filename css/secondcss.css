@@ -58,6 +58,7 @@ body, html {
     display: table;
 }
 
+
 .projecthead {
     display: table-cell;
     vertical-align: middle;
@@ -231,7 +232,7 @@ body, html {
 
 .imgcard:hover .overlay {
     display: block;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .7);
 }
 
 .imgcard:hover {
@@ -242,21 +243,11 @@ body, html {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 30%;
+    top: 40%;
     text-align: center;
     opacity: 0;
     transition: opacity .35s ease;
     margin-bottom: 10px;
-}
-
-.buttonvideo {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 50%;
-    text-align: center;
-    opacity: 0;
-    transition: opacity .35s ease;
 }
 
 .buttonsrc a {
@@ -267,22 +258,12 @@ body, html {
     border: solid 3px white;
     z-index: 1;
     text-decoration: none;
+    font-size: 13px;
 }
 
-.buttonvideo a {
-    padding: 10px 30px;
-    text-align: center;
-    color: white;
-    border: solid 3px white;
-    z-index: 1;
-    text-decoration: none;
-}
 
 @media(max-width:600px) {
     .buttonsrc a {
-        padding: 5px 5px;
-    }
-    .buttonvideo a {
         padding: 5px 5px;
     }
 }
@@ -290,16 +271,10 @@ body, html {
 .buttonsrc a:hover, a:focus {
     text-decoration: none;
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     transition: font-size 0.5s ease;
 }
 
-.buttonvideo a:hover, a:focus {
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
-    transition: font-size 0.5s ease;
-}
 
 .imgcard:hover .buttonsrc {
     opacity: 1;
@@ -323,6 +298,7 @@ body, html {
     border-radius: 5px;
     float: none;
     border: none;
+    margin:0;
 }
 
 .gallerybtn i {
@@ -341,7 +317,7 @@ body, html {
     height: 100%;
     position: absolute;
     right: 0;
-    margin-top: -100px;
+    margin-top: -110px;
 }
 
 .workmobileimg {

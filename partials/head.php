@@ -15,5 +15,5 @@
     <!-- Css transition -->
     
     <!-- js files -->
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="sub.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/sub.js"></script>

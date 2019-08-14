@@ -12,7 +12,7 @@
 
               <div class="col-xs-6 col-md-3">
                   <h6>View Resume</h6>
-                   <a href="Emma_Hyun_Jung__Ham_-_Resume_-_Software_Developer_final.pdf">Please click to see my CV</a>
+                   <a href="partials/Emma_Hyun_Jung__Ham_-_Resume_-_Software_Developer_final.pdf">Please click to see my CV</a>
                   <h6>Contact Info</h6>
                   <div><i class="fas fa-address-book" style="margin-right: 10px;"></i>Emma Hyun Jung Ham</div>
                   <div><i class="fas fa-envelope" style="margin-right: 10px;"></i>emma.hj.ham@gmail.com</div>

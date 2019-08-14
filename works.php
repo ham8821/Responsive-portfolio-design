@@ -52,7 +52,6 @@
                                 <div class="overlay"></div>
                                 <img class="workimg img-responsive" src="images/liquorlibrary.png" alt="">
                                 <div class="buttonsrc"><a href="https://www.github.com/a2ej2019t3/liquorlibrary"><i class="far fa-eye"></i> View Source </a></div>
-                                <div class="buttonvideo"><a href="#"><i class="far fa-play-circle"></i> Play Video </a></div>
                                 <div class="mobilewrapper">
                                     <img class="workmobileimg img-responsive" src="images/liquor_mobile.png" alt="">
                                     <button class="gallerybtn" onclick="lightbox(0)"><i class="fas fa-arrows-alt"></i> <span class="pre">Preview</span></button>
@@ -76,7 +75,6 @@
                                 <div class="overlay"></div>
                                 <img class="workimg img-responsive" src="images/thrifters.png" alt="">
                                 <div class="buttonsrc"><a href="https://github.com/ham8821/Shopping_webpage"><i class="far fa-eye"></i> View Source </a></div>
-                                <div class="buttonvideo"><a href="#"><i class="far fa-play-circle"></i> Play Video </a></div>
                                 <div class="mobilewrapper">
                                     <img class="workmobileimg img-responsive" src="images/thrifters_mobile.png" alt="">
                                     <button class="gallerybtn" onclick="lightbox2(0)"><i class="fas fa-arrows-alt"></i><span class="pre">Preview</span></button>
@@ -100,10 +98,9 @@
                                 <div class="overlay"></div>
                                 <img class="workimg img-responsive" src="images/itonline.png" alt="">
                                 <div class="buttonsrc"><a href="https://github.com/ham8821/IT_Education_website"><i class="far fa-eye"></i> View Source </a></div>
-                                <div class="buttonvideo"><a href="#"><i class="far fa-play-circle"></i> Play Video </a></div>
                                 <div class="mobilewrapper">
                                     <img class="workmobileimg img-responsive" src="images/itonline_mobile.png" alt="">
-                                    <button class="gallerybtn"  onclick="lightbox3(0)"><i class="fas fa-arrows-alt"></i><span class="pre">Preview</span></button>
+                                    <button class="gallerybtn" onclick="lightbox3(0)"><i class="fas fa-arrows-alt"></i><span class="pre">Preview</span></button>
                                 </div>
 
                             </div>
@@ -124,7 +121,6 @@
                                 <div class="overlay"></div>
                                 <img class="workimg img-responsive" src="images/carrental.png" alt="">
                                 <div class="buttonsrc"><a href="https://github.com/ham8821/car-rental-site"><i class="far fa-eye"></i> View Source </a></div>
-                                <div class="buttonvideo"><a href="#"><i class="far fa-play-circle"></i> Play Video </a></div>
                                 <div class="mobilewrapper">
                                     <img class="workmobileimg img-responsive" src="images/carrental_mobile.png" alt="">
                                     <button class="gallerybtn" onclick="lightbox4(0)"><i class="fas fa-arrows-alt"></i><span class="pre">Preview</span></button>
@@ -145,6 +141,7 @@
 
                 </div>
             </div>
+            
         </div>
 
 

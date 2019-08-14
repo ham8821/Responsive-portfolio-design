@@ -37,7 +37,7 @@ display: block!important;
   background-color: transparent!important;
   color: white!important;
   display: block!important;
-
+  text-align: center;
 }
 .logoline{
   width: 7%;
@@ -60,9 +60,12 @@ display: block!important;
   margin-top:0;
 }
 /* -- */
-div#navbar.navbar-collapse{
-  text-align: center;
+@media(max-width:768px){
+div#navbar.navbar-collapse li{
+  background-color:rgba(224, 184, 65, 1);
+}  
 }
+
 
 .hideme
 {
@@ -243,7 +246,7 @@ div#navbar.navbar-collapse{
 /* ------------------------------------------------- */
 .contactscreen{
   background-image: url("../images/wallpaper18.jpg");
-  /* height: 100vh; */
+  height: 100vh!important;
   background-size: cover;
   text-align: center;
   background-attachment: scroll;
