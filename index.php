@@ -18,7 +18,7 @@
     <?php
     include_once("partials/navbar.php");
     ?>
-<!-- /.navbar -->
+    <!-- /.navbar -->
     <!-- page to greet people ------------------------------------------------------ -->
     <header id="intro">
         <div class="container-fluid full-screen">
@@ -117,15 +117,17 @@
                     <h2 class="contact">Let's build something together!</h2>
                     <br>
                     <div class="row">
-                        <div class="contactform col-sm-12 col-md-12 col-lg-12">
-                            <div class="labelname"><label class="label">Name</label>*</div>
-                            <div class="inputbox"><input class="inputbox" type="text" required></div>
-                            <div class="labelname"><label class="label">Email</label>*</div>
-                            <div class="inputbox"><input class="inputbox" type="text" required> </div>
-                            <div class="labelname"><label class="label">Message</label>*</div>
-                            <div class="inputbox"><textarea class="inputbox" name="" id="" cols="30" rows="10" placeholder="" required></textarea> </div>
-                            <div class="inputbox"><button class="contactbutton">SUBMIT</button></div>
-                        </div>
+                        <form method="POST" action="ContactEmail/contactme.php">
+                            <div class="contactform col-sm-12 col-md-12 col-lg-12">
+                                <div class="labelname"><label class="label">Name</label>*</div>
+                                <div class="inputbox"><input name="sendername" class="inputbox" type="text" required></div>
+                                <div class="labelname"><label class="label">Email</label>*</div>
+                                <div class="inputbox"><input name="senderemail" class="inputbox" type="text" required> </div>
+                                <div class="labelname"><label class="label">Message</label>*</div>
+                                <div class="inputbox"><textarea class="inputbox" name="requestcontent" id="" cols="30" rows="10" placeholder="" required></textarea> </div>
+                                <div class="inputbox"><button name="emailsendbtn" class="contactbutton">SUBMIT</button></div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
