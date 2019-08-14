@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 })
 
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 130)  /*height in pixels when the navbar becomes non opaque*/ {
+  if ($(this).scrollTop() > 160)  /*height in pixels when the navbar becomes non opaque*/ {
       $('.opaque-navbar').addClass('opaque');
   } else {
       $('.opaque-navbar').removeClass('opaque');
@@ -18,7 +18,7 @@ $(window).scroll(function () {
 });
 
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 130)  /*height in pixels when the navbar becomes non opaque*/ {
+  if ($(this).scrollTop() > 160)  /*height in pixels when the navbar becomes non opaque*/ {
       $('.aboutmain').addClass('opaque');
   } else {
       $('.fourth-text').removeClass('opaque');
@@ -155,18 +155,70 @@ btnClose.addEventListener('click', function(e) {
 
 // image carousel
 function lightbox(idx) {
-  //show the slider's wrapper: this is required when the transitionType has been set to "slide" in the ninja-slider.js
-  var ninjaSldr = document.getElementById("ninja-slider");
+  //Show the slider wrapper
+  var ninjaSldr = document.getElementById("ninja-slider1");
   ninjaSldr.parentNode.style.display = "block";
 
+  //Then init the slider
+  //Note: The { initSliderByCallingInitFunc: true } option in the 
+  // ninja-slider.js tells the page not to initiate the slider
+  // unless the following init(idx) function is called.
   nslider.init(idx);
 
+  //Then mimic clicking the fullscreen button to popup the modal
   var fsBtn = document.getElementById("fsBtn");
   fsBtn.click();
 }
 
-function fsIconClick(isFullscreen, ninjaSldr) { //fsIconClick is the default event handler of the fullscreen button
+function fsIconClick(isFullscreen, ninjaSldr) {
+  //Note: fsIconClick is the default event handler of the fullscreen button
   if (isFullscreen) {
       ninjaSldr.parentNode.style.display = "none";
   }
 }
+function lightbox2(idx) {
+  //Show the slider wrapper
+  var ninjaSldr = document.getElementById("ninja-slider2");
+  ninjaSldr.parentNode.style.display = "block";
+
+  //Then init the slider
+  //Note: The { initSliderByCallingInitFunc: true } option in the 
+  // ninja-slider.js tells the page not to initiate the slider
+  // unless the following init(idx) function is called.
+  nslider2.init(idx);
+
+  //Then mimic clicking the fullscreen button to popup the modal
+  var fsBtn = document.getElementById("fsBtn2");
+  fsBtn.click();
+}
+function lightbox3(idx) {
+  //Show the slider wrapper
+  var ninjaSldr = document.getElementById("ninja-slider3");
+  ninjaSldr.parentNode.style.display = "block";
+
+  //Then init the slider
+  //Note: The { initSliderByCallingInitFunc: true } option in the 
+  // ninja-slider.js tells the page not to initiate the slider
+  // unless the following init(idx) function is called.
+  nslider3.init(idx);
+
+  //Then mimic clicking the fullscreen button to popup the modal
+  var fsBtn = document.getElementById("fsBtn3");
+  fsBtn.click();
+}
+function lightbox4(idx) {
+  //Show the slider wrapper
+  var ninjaSldr = document.getElementById("ninja-slider4");
+  ninjaSldr.parentNode.style.display = "block";
+
+  //Then init the slider
+  //Note: The { initSliderByCallingInitFunc: true } option in the 
+  // ninja-slider.js tells the page not to initiate the slider
+  // unless the following init(idx) function is called.
+  nslider4.init(idx);
+
+  //Then mimic clicking the fullscreen button to popup the modal
+  var fsBtn = document.getElementById("fsBtn4");
+  fsBtn.click();
+}
+

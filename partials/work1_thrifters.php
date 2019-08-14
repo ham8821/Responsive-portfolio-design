@@ -1,48 +1,41 @@
-<div style="display:none;">
-    <div id="ninja-slider1">
-        <div class="slider-inner">
-            <ul>
+
+    <div style="display:none;">
+        <div id="ninja-slider2">
+            <div class="slider-inner">
+                <ul>
                 <li>
-                    <a class="ns-img" href="images/liquor1.png"></a>
-                    <div class="caption">
-                    </div>
-                </li>
-                <li>
-                    <a class="ns-img" href="images/liquor2.png"></a>
-                    <div class="caption">
-                    </div>
-                </li>
-                <li>
-                    <span class="ns-img" style="background-image:url(images/liquor3.png);"></span>
-                    <div class="caption">
-                    </div>
-                </li>
-                <li>
-                    <a class="ns-img" href="images/liquor4.png"></a>
-                    <div class="caption">
-                    </div>
-                </li>
-                <li>
-                    <a class="ns-img" href="images/liquor5.png"></a>
-                    <div class="caption">
-                    </div>
-                </li>
-                <li>
-                    <a class="ns-img" href="images/liquor6.png"></a>
-                    <div class="caption">
-                    </div>
-                </li>
-                <li>
-                    <a class="ns-img" href="images/liquor8.png"></a>
-                    <div class="caption">
-                    </div>
-                </li>
-            </ul>
-            <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+                        <a class="ns-img" href="images/Thrifters.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="images/Thrifters1.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="images/Thrifters2.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="images/Thrifters3.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="images/Thrifters4.png"></a>
+                        <div class="caption">
+                        </div>
+                    </li>
+                </ul>
+                <div id="fsBtn2" class="fs-icon" title="Expand/Close"></div>
+            </div>
         </div>
     </div>
-</div>
-<style>
+
+
+    <style>
     body {
         font: normal 0.9em Arial;
         margin: 0;
@@ -93,7 +86,7 @@
 
     /* Visit http://www.menucool.com/responsive-slider for instructions */
 
-    #ninja-slider1 {
+    #ninja-slider2 {
         width: 100%;
         background: #191919;
         padding: 0;
@@ -104,7 +97,7 @@
     }
 
 
-    #ninja-slider1 .fs-icon {
+    #ninja-slider2 #fsBtn2 {
         top: 6px;
         right: 6px;
         width: 60px;
@@ -116,22 +109,22 @@
         text-shadow: 0 0 3px black;
         font: bold 18px/36px arial;
         border-radius: 2px;
-        opacity: 0;
+        opacity: 1;
         -webkit-transition: opacity 0.8s;
         transition: opacity 0.8s;
     }
 
-    #ninja-slider1 .slider-inner:hover .fs-icon,
-    #ninja-slider1.fullscreen .fs-icon {
+    #ninja-slider2 .slider-inner:hover #fsBtn2,
+    #ninja-slider2.fullscreen #fsBtn2 {
         opacity: 1;
     }
 
-    #ninja-slider1 .fs-icon::before {
+    #ninja-slider2 #fsBtn2::before {
         content: "EXPAND";
         display: block;
     }
 
-    #ninja-slider1.fullscreen .fs-icon::before {
+    #ninja-slider2.fullscreen #fsBtn2::before {
         content: "+";
         display: block;
         font-weight: bold;
@@ -139,7 +132,7 @@
         transform: rotate(-45deg);
     }
 
-    #ninja-slider1 .slider-inner {
+    #ninja-slider2 .slider-inner {
         /*max-width:700px;*/
         margin: 0 auto;
         /*center-aligned */
@@ -149,13 +142,13 @@
         padding-bottom: 100px !important;
     }
 
-    #ninja-slider1.fullscreen .slider-inner {
+    #ninja-slider2.fullscreen .slider-inner {
         width: 98%;
         /* 100% will cause a big top gap issue in iPhone*/
         max-width: 900px;
     }
 
-    #ninja-slider1 ul {
+    #ninja-slider2 ul {
         position: relative;
         list-style: none;
         padding: 0;
@@ -165,7 +158,7 @@
         /*For showing captions outside the slider when transitionType is "fade". */
     }
 
-    #ninja-slider1 li {
+    #ninja-slider2 li {
 
         width: 100%;
         height: 100%;
@@ -176,7 +169,7 @@
         list-style: none;
         margin: 0;
         padding: 0;
-        opacity: 0;
+        opacity: 1;
         /*overflow:hidden;*/
         /*Comment it out to show the caption*/
         box-sizing: border-box;
@@ -184,14 +177,14 @@
         margin-bottom: 100px !important;
     }
 
-    #ninja-slider1 li.ns-show {
+    #ninja-slider2 li.ns-show {
         opacity: 1;
     }
 
 
 
     /* --------- slider image ------- */
-    #ninja-slider1 .ns-img {
+    #ninja-slider2 .ns-img {
         background-size: contain;
         /*Note: If transitionType is zoom, it will be overridden to cover.*/
         cursor: default;
@@ -205,7 +198,7 @@
 
 
     /*---------- Captions -------------------*/
-    #ninja-slider1 .caption {
+    #ninja-slider2 .caption {
         position: absolute;
         top: 98%;
         padding: 0 40px;
@@ -221,12 +214,12 @@
 
     /* ---------Arrow buttons ------- */
     /* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */
-    #ninja-slider1-pause-play {
+    #ninja-slider2-pause-play {
         display: none;
     }
 
-    #ninja-slider1-prev,
-    #ninja-slider1-next {
+    #ninja-slider2-prev,
+    #ninja-slider2-next {
         position: absolute;
         display: inline-block;
         width: 42px;
@@ -254,24 +247,24 @@
         transition: all 0.4s;
     }
 
-    .slider-inner:hover #ninja-slider1-prev,
-    .slider-inner:hover #ninja-slider1-next {
+    .slider-inner:hover #ninja-slider2-prev,
+    .slider-inner:hover #ninja-slider2-next {
         opacity: 1;
     }
 
 
-    #ninja-slider1-prev {
+    #ninja-slider2-prev {
         left: -42px;
         /*set it with a positive value if .slider-inner does not have max-width setting.*/
     }
 
-    #ninja-slider1-next {
+    #ninja-slider2-next {
         right: -42px;
     }
 
     /* arrows */
-    #ninja-slider1-prev::before,
-    #ninja-slider1-next::before {
+    #ninja-slider2-prev::before,
+    #ninja-slider2-next::before {
         position: absolute;
         top: 17px;
         content: "";
@@ -283,7 +276,7 @@
         backface-visibility: hidden;
     }
 
-    #ninja-slider1-prev::before {
+    #ninja-slider2-prev::before {
         -ms-transform: rotate(-45deg);
         /*IE 9*/
         -webkit-transform: rotate(-45deg);
@@ -291,7 +284,7 @@
         left: 16px;
     }
 
-    #ninja-slider1-next::before {
+    #ninja-slider2-next::before {
         -ms-transform: rotate(135deg);
         /*IE 9*/
         -webkit-transform: rotate(135deg);
@@ -301,41 +294,41 @@
 
 
     /*pagination num within the arrow buttons*/
-    #ninja-slider1-prev:hover,
-    #ninja-slider1-next:hover {
+    #ninja-slider2-prev:hover,
+    #ninja-slider2-next:hover {
         width: 80px;
         background-color: rgba(0, 0, 0, 0.5);
     }
 
-    #ninja-slider1-prev div {
+    #ninja-slider2-prev div {
         margin-right: 8px;
         white-space: nowrap;
-        opacity: 0;
+        opacity: 1;
         float: right;
     }
 
-    #ninja-slider1-next div {
+    #ninja-slider2-next div {
         margin-left: 8px;
         white-space: nowrap;
-        opacity: 0;
+        opacity: 1;
         float: left;
     }
 
-    #ninja-slider1-prev:hover div,
-    #ninja-slider1-next:hover div {
+    #ninja-slider2-prev:hover div,
+    #ninja-slider2-next:hover div {
         opacity: 1;
     }
 
 
     /*------ pager(nav bullets) ------*/
     /* The pager id should be: slider id + "-pager" */
-    #ninja-slider1-pager {
+    #ninja-slider2-pager {
         display: none;
     }
 
-    #ninja-slider1-prev,
-    #ninja-slider1-next,
-    #ninja-slider1-pause-play {
+    #ninja-slider2-prev,
+    #ninja-slider2-next,
+    #ninja-slider2-pause-play {
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         user-select: none;
@@ -346,25 +339,25 @@
 
     @media only screen and (max-width:1050px) {
 
-        #ninja-slider1-prev {
+        #ninja-slider2-prev {
             left: 0;
         }
 
-        #ninja-slider1-next {
+        #ninja-slider2-next {
             right: 0;
         }
     }
 
     @media only screen and (max-width:600px) {
 
-        #ninja-slider1-prev,
-        #ninja-slider1-next,
-        #ninja-slider1-pager {
+        #ninja-slider2-prev,
+        #ninja-slider2-next,
+        #ninja-slider2-pager {
             display: none;
         }
 
 
-        #ninja-slider1 li .cap1 {
+        #ninja-slider2 li .cap1 {
             font-size: 20px;
         }
     }
