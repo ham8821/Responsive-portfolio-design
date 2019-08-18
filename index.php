@@ -117,17 +117,23 @@
                     <h2 class="contact">Let's build something together!</h2>
                     <br>
                     <div class="row">
-                        <form method="POST" action="MAILTO:emma.hj.ham@gmail.com?subject=New request from your website" enctype="text/plain">
-                            <div class="contactform col-sm-12 col-md-12 col-lg-12">
+                        <form class="contactfo" id="contactformname" method="POST" action="MAILTO:emma.hj.ham@gmail.com?subject=New request from your website" enctype="text/plain">
+                            <div id="formbox" class="contactform col-sm-12 col-md-12 col-lg-12">
                                 <div class="labelname"><label class="label">Name</label>*</div>
                                 <div class="inputbox"><input name="From: " class="inputbox" type="text" required></div>
                                 <br>
                                 <div class="labelname"><label class="label">Email</label>*</div>
-                                <div class="inputbox"><input name="Reply Email: " class="inputbox" type="text" required> </div>
+                                <div class="inputbox"><input name="Reply Email: " class="inputbox" type="email" required> </div>
                                 <br>
                                 <div class="labelname"><label class="label">Message</label>*</div>
                                 <div class="inputbox"><textarea class="inputbox" name="Message: " cols="30" rows="10" placeholder="" required></textarea> </div>
-                                <div class="inputbox"><button class="contactbutton" type="submit">SUBMIT</button></div>
+                                <div class="inputbox"><button class="contactbutton" type="submit" id="formsubbtn">SUBMIT</button></div>
+                            </div>
+                            <div class="maildirection" id="secondbox" style="display:none">
+                                <div class="mgs">
+                                    Thanks for your interest, I will get back to you as soon as possible:)
+                                </div>
+                                <button class="gobackbutton" type="button" id="backbtn">Go back</button>
                             </div>
                         </form>
                     </div>
@@ -136,12 +142,31 @@
         </div>
     </section>
     <!-- ---------------------------------------------------------------------------- -->
+    <script>
+        $('body').on('submit', 'form.contactfo', function() {
+            var box = $('#formbox');
+            var secondbox = $('#secondbox');
 
+            setTimeout(function() {
+                box.css('display', 'none');
+            }, 500);
+            setTimeout(function() {
+                secondbox.css('display', 'block');
+            }, 500);
+            $("#backbtn").click(function() {
+                setTimeout(function() {
+                    secondbox.css('display', 'none');
+                }, 500);
+                setTimeout(function() {
+                    box.css('display', 'block');
+                }, 500);
+            })
+        })
+    </script>
     <?php
     // include_once("partials/indicatorUp.php");
     include_once("partials/footer.php");
     include_once("partials/foot.php");
-
     ?>
 </body>
 

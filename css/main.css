@@ -257,7 +257,7 @@ div#navbar.navbar-collapse li{
 .contact{
   color:rgba(48, 43, 41,1);
   text-align: left;
-  margin-left: 80px;
+  margin-left: 100px;
   margin-top:0;
   margin-bottom: 20px;
   font-weight: 600;
@@ -298,6 +298,35 @@ div#navbar.navbar-collapse li{
   transform: translateY(4px); 
 }
 
+.hidden {
+  display: none;
+}
+
+.visuallyhidden {
+  opacity: 0;
+}
+.maildirection{
+  width: 300px;
+  height:100%;
+  padding:30px;
+  background-color: rgba(48, 43, 41,1);
+  opacity: 0.8;
+  color: white;
+  margin-left: 140px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+.gobackbutton{
+  background-color: black;
+  color: white;
+  margin-top:5px;
+}
+.gobackbutton:hover{
+  background-color: white;
+  color: black;
+  border:1px solid black;
+}
 .label{
   margin: 0 auto;
   padding: 0 0;

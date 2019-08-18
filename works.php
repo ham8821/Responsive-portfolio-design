@@ -85,7 +85,7 @@
                         <div class="col-12 descard">
                             <div class="projectdescription">
                                 <p class="projectname">Thrifters Online Shopping</p>
-                                <p class="projectarea">Web development <span class="projectduration">/Mar 2019-present</span></p>
+                                <p class="projectarea">Web development <span class="projectduration">/Sep 2018-Sep 2019</span></p>
                                 <p class="projecttech">PHP, MySQL, MySQL workbench,HTML, CSS, JavaScript,<br> JQuery, Ajax,
                                     bootstrap 4 ,git, xamp</p>
                             </div>
@@ -108,7 +108,7 @@
                         <div class="col-12 descard">
                             <div class="projectdescription">
                                 <p class="projectname">IT Online Tutorial Hub</p>
-                                <p class="projectarea">Web development <span class="projectduration">/Mar 2019-present</span></p>
+                                <p class="projectarea">Web development <span class="projectduration">/Aug 2018-Aug 2018</span></p>
                                 <p class="projecttech">PHP, MySQL,HTML, CSS, JavaScript,<br> JQuery, Ajax,
                                     bootstrap 4 ,git</p>
                             </div>
@@ -131,7 +131,7 @@
                         <div class="col-12 descard">
                             <div class="projectdescription">
                                 <p class="projectname">Car Rental Booking Online</p>
-                                <p class="projectarea">Web development <span class="projectduration">/Mar 2019-present</span></p>
+                                <p class="projectarea">Web development <span class="projectduration">/Jul 2018-Aug 2018</span></p>
                                 <p class="projecttech">PHP, MySQL,HTML, CSS, JavaScript,<br> JQuery, Ajax,
                                     bootstrap 4 ,git</p>
                             </div>
