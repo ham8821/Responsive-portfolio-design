@@ -73,7 +73,7 @@
                         <div class="col-12 imgcard">
                             <div class="imgwrapper">
                                 <div class="overlay"></div>
-                                <img class="workimg img-responsive" src="images/thrifters.png" alt="">
+                                <img class="workimg img-responsive" src="images/testwork.jpg" alt="">
                                 <div class="buttonsrc"><a href="https://github.com/ham8821/Shopping_webpage"><i class="far fa-eye"></i> View Source </a></div>
                                 <div class="mobilewrapper">
                                     <img class="workmobileimg img-responsive" src="images/thrifters_mobile.png" alt="">
