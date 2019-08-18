@@ -4,27 +4,27 @@
             <div class="slider-inner">
                 <ul>
                 <li>
-                        <a class="ns-img" href="images/Thrifters.png"></a>
+                        <a class="ns-img" href="images/thrifters.png"></a>
                         <div class="caption">
                         </div>
                     </li>
                     <li>
-                        <a class="ns-img" href="images/Thrifters1.png"></a>
+                        <a class="ns-img" href="images/thrifters1.png"></a>
                         <div class="caption">
                         </div>
                     </li>
                     <li>
-                        <a class="ns-img" href="images/Thrifters2.png"></a>
+                        <a class="ns-img" href="images/thrifters2.png"></a>
                         <div class="caption">
                         </div>
                     </li>
                     <li>
-                        <a class="ns-img" href="images/Thrifters3.png"></a>
+                        <a class="ns-img" href="images/thrifters3.png"></a>
                         <div class="caption">
                         </div>
                     </li>
                     <li>
-                        <a class="ns-img" href="images/Thrifters4.png"></a>
+                        <a class="ns-img" href="images/thrifters4.png"></a>
                         <div class="caption">
                         </div>
                     </li>

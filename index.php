@@ -105,7 +105,7 @@
                     <div class="col-lg-6 extrabox hideme">Congratuations!<br> You are about to see more colors of me as a person!
                         <div class="imagewrap">
                             <div class="first">CREATE</div>
-                            <img src="images/extra5" class="img-responsive" alt="">
+                            <img src="images/extra5.png" class="img-responsive" alt="">
                             <span class="sec">REFINE</span>
                             <span class="thr">EXECUTE</span>
                         </div>
