@@ -101,8 +101,8 @@
               
                     <br><br><br><br><br>
                     <h2 class="extraheading hideme"> Little extra about me</h2>
-                    <div class="row">
-                    <div class="col-lg-6 extrabox hideme">Congratuations!<br> You are about to see more colors of me as a person!
+                    <div class="row hideme">
+                    <div class="col-lg-6 extrabox">Congratuations!<br> You are about to see more colors of me as a person!
                         <div class="imagewrap">
                             <div class="first">CREATE</div>
                             <img src="images/extra5.png" class="img-responsive" alt="">
@@ -115,8 +115,8 @@
                         </div>
                     </div>
                     
-                    <div class="col-lg-6">
-                        <div class="row imgrow hideme">
+                    <div class="col-lg-6 hideme">
+                        <div class="row imgrow">
                             <div class="extheading"> What I do for fun</div>
                             <div class="col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
@@ -140,7 +140,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row imgrow hideme">
+                        <div class="row imgrow">
                             <div class="extheading"> What I find interesting these days</div>
                             <div class="col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
