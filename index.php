@@ -117,15 +117,17 @@
                     <h2 class="contact">Let's build something together!</h2>
                     <br>
                     <div class="row">
-                        <form method="POST" action="ContactEmail/contactme.php">
+                        <form method="POST" action="MAILTO:emma.hj.ham@gmail.com?subject=New request from your website" enctype="text/plain">
                             <div class="contactform col-sm-12 col-md-12 col-lg-12">
                                 <div class="labelname"><label class="label">Name</label>*</div>
-                                <div class="inputbox"><input name="sendername" class="inputbox" type="text" required></div>
+                                <div class="inputbox"><input name="From: " class="inputbox" type="text" required></div>
+                                <br>
                                 <div class="labelname"><label class="label">Email</label>*</div>
-                                <div class="inputbox"><input name="senderemail" class="inputbox" type="text" required> </div>
+                                <div class="inputbox"><input name="Reply Email: " class="inputbox" type="text" required> </div>
+                                <br>
                                 <div class="labelname"><label class="label">Message</label>*</div>
-                                <div class="inputbox"><textarea class="inputbox" name="requestcontent" id="" cols="30" rows="10" placeholder="" required></textarea> </div>
-                                <div class="inputbox"><button name="emailsendbtn" class="contactbutton">SUBMIT</button></div>
+                                <div class="inputbox"><textarea class="inputbox" name="Message: " cols="30" rows="10" placeholder="" required></textarea> </div>
+                                <div class="inputbox"><button class="contactbutton" type="submit">SUBMIT</button></div>
                             </div>
                         </form>
                     </div>
