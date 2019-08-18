@@ -101,7 +101,17 @@
                 <div class="extra col-12">
                     <br><br><br><br><br>
                     <h2 class="extraheading hideme"> Little extra about me</h2>
-                    <p class="extrabox hideme">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio consectetur temporibus at ut. Atque quidem reprehenderit laudantium tempore voluptate dignissimos voluptatum magnam impedit, dolorem aliquid, non fuga alias sequi Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloremque ipsum architecto iure tenetur distinctio praesentium consequuntur, repellendus nulla explicabo vero, iusto in? Excepturi assumenda, quam sapiente sunt dolorem placeat?></p>
+                    <div class="extrabox hideme">Congratuations!<br> You are about to see more colors of me as a person!
+                        <div class="imagewrap">
+                            <div class="first">Creat</div>
+                            <img src="images/extra4" class="img-responsive" alt="">
+                            <div class="sec">Refine</div>
+                            <div class="thr">Execute</div>
+                        </div>
+                        <div>
+                    If I define my personality, I love creating, refining and executing. Not necessarily only talking about programming, I love the process of delivering best work of what is done, even when I have free time to spend on hobbies.   
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>

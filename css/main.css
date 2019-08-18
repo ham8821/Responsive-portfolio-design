@@ -203,7 +203,7 @@ div#navbar.navbar-collapse li{
   color:rgba(48, 43, 41,1);
   text-align: left;
   margin-top: 0;
-  margin-left: 80px;
+  margin-left: 120px;
   margin-bottom: 20px;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
@@ -215,24 +215,33 @@ div#navbar.navbar-collapse li{
   max-width: 400px;
   /* color: rgba(124, 99, 84, 1); */
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.2em;
+  font-weight: 600;
   text-align: left;
-  margin-left:50px;
+  margin-left:100px;
   margin-right: 30px;
 
+}
+.imagewrap{
+  width: 300px;
+  height:300px;
+  margin-top:50px;
+  text-align: center;
+  margin:auto auto;
+}
+.sec{
+  text-align: left;
+  margin-left:-20px;
+}
+.thr{
+  text-align: right;
+  margin-right:-20px;
 }
 #parentextra {display: table;}
 #childextra{
   display: table-cell;
   vertical-align: middle;
 }
-@media screen and (min-width: 601px) {
-  .extrabox {
-      font-size: 20px;
-  }
-}
-
 @media screen and (max-width: 600px) {
   .extrabox {
     font-size: 15px;
