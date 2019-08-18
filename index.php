@@ -96,78 +96,23 @@
 
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="extra">
-        <div class="full-screen extra" id="parentextra">
+        <div class="full-screen" id="parentextra">
             <div class="row" id="childextra">
-              
+                <div class="extra col-12">
                     <br><br><br><br><br>
                     <h2 class="extraheading hideme"> Little extra about me</h2>
-                    <div class="row">
-                    <div class="col-lg-6 extrabox hideme">Congratuations!<br> You are about to see more colors of me as a person!
+                    <div class="extrabox hideme">Congratuations!<br> You are about to see more colors of me as a person!
                         <div class="imagewrap">
-                            <div class="first">CREATE</div>
-                            <img src="images/extra5" class="img-responsive" alt="">
-                            <span class="sec">REFINE</span>
-                            <span class="thr">EXECUTE</span>
+                            <div class="first">Creat</div>
+                            <img src="images/extra4" class="img-responsive" alt="">
+                            <div class="sec">Refine</div>
+                            <div class="thr">Execute</div>
                         </div>
                         <div>
-                            <br>
-                            <p class="define">If I define my personality into 3 words, It would be <b>Create, Refine</b> and <b>Execute</b>. Simply because I love creating, refining and executing. Not necessarily only talking about programming, I love the process of delivering best work of what is done, even when I have free time to spend on hobbies.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-6">
-                        <div class="row imgrow hideme">
-                            <div class="extheading"> What I do for fun</div>
-                            <div class="col-sm-4 col-lg-4">
-                                <div class="hobbywrap">
-                                <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; margin-top:20px" src="images/radio.png" alt="">
-                                    <div class="deshobby">KNTV: Radio host</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-lg-4">
-                            <div class="hobbywrap">
-                            <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px;  margin-top:20px" src="images/coffee.jpg" alt="">
-                                    <div class="deshobby">Barista_coffee lover</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-lg-4">
-                            <div class="hobbywrap">
-                            <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; width:270px;  margin-top:20px" src="images/writer.jpg" alt="">
-                                    <div class="deshobby">Instagram writers: believe in power of inspirational quotes</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row imgrow hideme">
-                            <div class="extheading"> What I find interesting these days</div>
-                            <div class="col-sm-4 col-lg-4">
-                                <div class="hobbywrap">
-                                <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; width:270px; margin-top:20px" src="images/react.png" alt="">
-                                    <div class="deshobby">Powerful modern frameworks</div>
-
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-lg-4">
-                            <div class="hobbywrap">
-                            <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; width:270px; margin-top:20px" src="images/type.jpeg" alt="">
-                                    <div class="deshobby">Typescript</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-lg-4">
-                            <div class="hobbywrap">
-                            <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; width:270px;  margin-top:20px" src="images/aws.png" alt="">
-                                    <div class="deshobby">Deployment knowledge, Cloud computing</div>
-                                </div>
-                            </div>
-                        </div>
+                    If I define my personality, I love creating, refining and executing. Not necessarily only talking about programming, I love the process of delivering best work of what is done, even when I have free time to spend on hobbies.   
                     </div>
                     </div>
-                
+                </div>
             </div>
         </div>
     </section>
