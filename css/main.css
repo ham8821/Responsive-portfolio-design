@@ -32,6 +32,11 @@ body{
   transition: background-color .6s ease 0s;
   color: white!important;
 }
+@media(max-width: 500px){
+.navar-toggle{
+margin-right:80px;
+}  
+}
 
 .navbar-brand {
   color: white!important;
@@ -73,8 +78,10 @@ body{
     background-color: rgba(224, 184, 65, 1);
   }
 }
-.navbar-collapse{
-  margin-right: 20px;
+@media(max-width:499px) {
+  .navbar-collapse{
+    width:93%;
+  }
 }
 .hideme {
   opacity: 0;

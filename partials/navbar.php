@@ -1,8 +1,8 @@
 <nav class="navbar-fixed-top navbar-default opaque-navbar">
         <div class="container-fluid">
-            <div id="navbar" class="navbar-collapse">
+            <div id="navbar" class="navbar-collapse full-screen">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-right:80px;">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
