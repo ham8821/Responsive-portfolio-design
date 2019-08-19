@@ -133,7 +133,7 @@
                             <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px; margin-top:20px;" src="images/writer.jpg" alt="">
+                                    <img class="hop img-responsive" style="height:170px; width:200px;" src="images/writer.jpg" alt="">
                                     <div class="deshobby">Instagram writers: believe in power of inspirational quotes</div>
                                 </div>
                             </div>
@@ -151,14 +151,14 @@
                             <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px margin-top:20px" src="images/type.jpeg" alt="">
+                                    <img class="hop img-responsive" style="height:170px; width:200px;" src="images/type.jpeg" alt="">
                                     <div class="deshobby">Typescript</div>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px;  margin-top:20px" src="images/aws.png" alt="">
+                                    <img class="hop img-responsive" style="height:170px; width:200px;" src="images/aws.png" alt="">
                                     <div class="deshobby">Deployment knowledge, Cloud computing</div>
                                 </div>
                             </div>
