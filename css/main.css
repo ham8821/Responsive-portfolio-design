@@ -7,13 +7,16 @@
 
 body, html {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  scroll-behavior: smooth;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
   transition: opacity .5s;
 }
-
+body{
+  overflow-x: hidden;
+}
 /* navbar */
 
 .navbar-fixed-top {
@@ -70,7 +73,9 @@ body, html {
     background-color: rgba(224, 184, 65, 1);
   }
 }
-
+.navbar-collapse{
+  margin-right: 20px;
+}
 .hideme {
   opacity: 0;
 }
