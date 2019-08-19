@@ -37,13 +37,13 @@
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="introduction">
 
-        <div class="container-fluid full-screen">
+        <div class="container-fluid full-screen" id="parentjob">
             <div class="row">
-                <div class="introscreen col-xs-12 col-md-12" id="parentjob">
-                    <div id="introductionbox">
+                <div class="introscreen col-xs-12 col-md-12">
+                    <div id="introductionbox" id="childjob">
 
                         <p class="jobtitle hideme" style=" margin-top: 50px; margin-right:80px;">Front-end developer </p>
-                        <p class="jobtitle hideme" style=" margin-bottom: 20px; margin-left:80px;">&nbsp &nbsp & Back-end developer</p>
+                        <p class="jobtitle hideme" style=" margin-bottom: 20px;">&nbsp &nbsp & Full-stack developer</p>
 
                         <div class="collapse navbar-collapse" id="extrades">
                             <p class="intro hideme">Having completed bachelor degree in Business Administration and Graduate Diploma in Information Technology this year, I've been always pursuing learning new things day by day. <br> What I always make sure in daily basis is whether I have learnt new things apart from school study scope, having personal projects aside all the time. At the moment, I am working for this liquor speacialist company, building their official website as a contract developer. If you are interested, you can have a look some of my works here.</p>
@@ -83,7 +83,7 @@
     <section id="works">
         <div class="container-fluid full-screen">
             <div class="row">
-                <div class="workscreen col-xs-12 col-md-12">
+                <div class="workscreen col-xs-12 col-md-12 col-lg-12">
                     <br><br><br><br><br><br><br> <br><br><br><br><br><br><br>
                     <p class="recentwork hideme">My recent Projects</p>
 
@@ -96,13 +96,12 @@
 
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="extra">
-        <div class="full-screen extra" id="parentextra">
-            <div class="row" id="childextra">
-              
-                    <br><br><br><br><br>
-                    <h2 class="extraheading hideme"> Little extra about me</h2>
-                    <div class="row">
-                    <div class="col-lg-6 extrabox">Congratuations!<br> You are about to see more colors of me as a person!
+        <div class="container-fluid extra full-screen">
+            <h2 class="extraheading hideme"> Little extra about me</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-5 col-lg-5 extrabox">
+                        <p class="subhead">Congratuations!<br> You are about to see more colors of me as a person!</p>
                         <div class="imagewrap hideme">
                             <div class="first">CREATE</div>
                             <img src="images/extra5.png" class="img-responsive" alt="">
@@ -114,62 +113,61 @@
                             <p class="define">If I define my personality into 3 words, It would be <b>Create, Refine</b> and <b>Execute</b>. Simply because I love creating, refining and executing. Not necessarily only talking about programming, I love the process of delivering best work of what is done, even when I have free time to spend on hobbies.</p>
                         </div>
                     </div>
-                    
-                    <div class="col-lg-6">
+                    <div class="col-xs-12 col-md-7 col-lg-7">
                         <div class="row imgrow">
                             <div class="extheading"> What I do for fun</div>
-                            <div class="col-sm-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
-                                <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; margin-top:20px" src="images/radio.png" alt="">
+
+                                    <img class="hop img-responsive" style="height:170px; width:200px" src="images/radio.png" alt="">
                                     <div class="deshobby">KNTV: Radio host</div>
                                 </div>
                             </div>
-                            <div class="col-sm-4 col-lg-4">
-                            <div class="hobbywrap">
-                            <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px;  margin-top:20px" src="images/coffee.jpg" alt="">
+                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                                <div class="hobbywrap">
+
+                                    <img class="hop img-responsive" style="height:170px; width:200px;" src="images/coffee.jpg" alt="">
                                     <div class="deshobby">Barista_coffee lover</div>
                                 </div>
                             </div>
-                            <div class="col-sm-4 col-lg-4">
-                            <div class="hobbywrap">
-                            <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; width:270px;  margin-top:20px" src="images/writer.jpg" alt="">
+                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                                <div class="hobbywrap">
+
+                                    <img class="hop img-responsive" style="height:170px; width:200px; margin-top:20px;" src="images/writer.jpg" alt="">
                                     <div class="deshobby">Instagram writers: believe in power of inspirational quotes</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row imgrow">
+                        <div class="row imgrow" style="margin-bottom: 30px;">
                             <div class="extheading"> What I find interesting these days</div>
-                            <div class="col-sm-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
-                                <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; width:270px; margin-top:20px" src="images/react.png" alt="">
+
+                                    <img class="hop img-responsive" style="height:170px; width:200px margin-top:20px" src="images/react.png" alt="">
                                     <div class="deshobby">Powerful modern frameworks</div>
 
                                 </div>
                             </div>
-                            <div class="col-sm-4 col-lg-4">
-                            <div class="hobbywrap">
-                            <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; width:270px; margin-top:20px" src="images/type.jpeg" alt="">
+                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                                <div class="hobbywrap">
+
+                                    <img class="hop img-responsive" style="height:170px; width:200px margin-top:20px" src="images/type.jpeg" alt="">
                                     <div class="deshobby">Typescript</div>
                                 </div>
                             </div>
-                            <div class="col-sm-4 col-lg-4">
-                            <div class="hobbywrap">
-                            <div class="overlay"></div>
-                                    <img class="hop img-responsive" style="height:200px; width:270px;  margin-top:20px" src="images/aws.png" alt="">
+                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                                <div class="hobbywrap">
+
+                                    <img class="hop img-responsive" style="height:170px; width:200px;  margin-top:20px" src="images/aws.png" alt="">
                                     <div class="deshobby">Deployment knowledge, Cloud computing</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-                
+                </div>
             </div>
         </div>
+</div>
     </section>
     <!-- ---------------------------------------------------------------------------- -->
 

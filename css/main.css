@@ -135,7 +135,8 @@ body{
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
-}
+
+  display: table;}
 
 #introductionbox {
   font-family: 'Roboto', sans-serif;
@@ -179,7 +180,10 @@ body{
 #parentjob {
   display: table;
 }
-
+#childjob {
+  display: table-cell;
+  vertical-align: middle;
+}
 /* ------------------------------------------------------------ */
 
 .workscreen {
@@ -217,9 +221,10 @@ body{
 /*  */
 
 .extra {
+  /* display: table; */
   background-image: url("../images/wallpaper13.jpg");
   background-size: cover;
-  height: 100vh;
+  height:100%;
   width: 100vw;
   text-align: center;
   background-attachment: scroll;
@@ -229,9 +234,9 @@ body{
 
 .extraheading {
   color: rgba(48, 43, 41, 1);
-  text-align: left;
-  margin-top: 0;
-  margin-left: 120px;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 100px;
   margin-bottom: 20px;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
@@ -244,16 +249,21 @@ body{
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
 }
+.subhead{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  clear: both;
+}
 .extrabox {
-  margin-top: 0;
-  max-width: 400px;
+  /* margin:  30px; */
+  margin-top:30px auto;
+  /* max-width: 400px; */
   /* color: rgba(124, 99, 84, 1); */
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   font-weight: 600;
   text-align: left;
-  margin-left: 100px;
-  margin-right: 30px;
 }
 /* .hobbywrap:hover .overlay {
   display: block;
@@ -261,8 +271,8 @@ body{
 } */
 
 .hobbywrap{
-  width: 270px;
-  max-height: 200px;
+  width: 200px;
+  max-height: 170px;
   margin:0 auto;
 }
 .imgrow{
@@ -282,14 +292,26 @@ body{
   text-align: center;
   margin: auto auto;
 }
+@media(max-width:600px){
+  .imagewrap {
+    width: 200px;
+    height: 200px;
+  
+  } 
+  .first, .sec, .thr{
+    font-size:15px;
+  }
+  .extheading{
+    font-size:20px;
+  }
 
+}
 .first {
   margin-top: 20px;
 }
 
 .sec {
   text-align: left;
-  margin-top: 10px;
   margin-bottom: 20px;
   float: left;
 }
@@ -298,7 +320,6 @@ body{
   text-align: right;
   float: right;
   margin-bottom: 20px;
-  margin-top: 10px;
 }
 
 .define {
@@ -317,10 +338,6 @@ body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Playfair Display', serif;
 */
-
-#parentextra {
-  display: table;
-}
 
 #childextra {
   display: table-cell;
