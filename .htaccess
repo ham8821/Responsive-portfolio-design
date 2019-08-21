@@ -1,11 +1,15 @@
-<IfModule deflate_module>
-    # Enable compression for the following file types.
-    AddOutputFilterByType            \
-     DEFLATE                         \
-      application/javascript         \
-      text/css                       \
-      text/html                      \
-      text/javascript                \
-      text/plain                     \
-      text/xml
-</IfModule>
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+# Or, compress certain file types by extension:
+<files *.html>
+SetOutputFilter DEFLATE
+</files>
