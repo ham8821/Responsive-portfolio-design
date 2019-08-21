@@ -1,3 +1,4 @@
+<?php if (substr_count($_SERVER[‘HTTP_ACCEPT_ENCODING’], ‘gzip’)) ob_start(“ob_gzhandler”); else ob_start(); ?>
 <nav class="navbar-fixed-top navbar-default opaque-navbar">
         <div class="container-fluid">
             <div id="navbar" class="navbar-collapse full-screen">

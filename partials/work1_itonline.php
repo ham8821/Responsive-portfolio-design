@@ -1,4 +1,4 @@
-
+<?php if (substr_count($_SERVER[‘HTTP_ACCEPT_ENCODING’], ‘gzip’)) ob_start(“ob_gzhandler”); else ob_start(); ?>
     <div style="display:none;">
         <div id="ninja-slider3">
             <div class="slider-inner">
