@@ -1,4 +1,3 @@
-<?php if (substr_count($_SERVER[‘HTTP_ACCEPT_ENCODING’], ‘gzip’)) ob_start(“ob_gzhandler”); else ob_start(); ?>
 <!-- Site footer -->
   <footer class="site-footer" style="width:100%;">
       <div class="container" style="width:70%;">
