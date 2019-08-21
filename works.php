@@ -1,3 +1,4 @@
+<?php if (substr_count($_SERVER[‘HTTP_ACCEPT_ENCODING’], ‘gzip’)) ob_start(“ob_gzhandler”); else ob_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,26 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Emma Ham_ portfolio_projects</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php
     include_once("partials/head.php");
     include_once("css/style.php");
+    include_once("partials/navbar.php");
     ?>
-    <script>
-        $(document).ready(function() {
-            $('body').show();
-            $('.projecthead').animate({
-                'opacity': '1',
-                'marginBottom': '0.1in'
-            }, 1500);
-        });
-    </script>
 </head>
 
 <body id="topsection">
     <!-- navbar -->
     <?php
-    include_once("partials/navbar.php");
     include_once("partials/work1_liquor.php");
     include_once("partials/work1_thrifters.php");
     include_once("partials/work1_itonline.php");
@@ -153,8 +147,16 @@
     // include_once("partials/indicatorUp.php");
     include_once("partials/footer.php");
     include_once("partials/foot.php");
-
     ?>
+        <script>
+        $(document).ready(function() {
+            $('body').show();
+            $('.projecthead').animate({
+                'opacity': '1',
+                'marginBottom': '0.1in'
+            }, 1500);
+        });
+    </script>
 </body>
 
 </html>
