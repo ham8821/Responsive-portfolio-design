@@ -8,22 +8,22 @@
                         </div>
                     </li>
                     <li>
-                        <a class="ns-img" href="images/thrifters1.png"></a>
+                        <a class="ns-img" href="images/testwork1.jpg"></a>
                         <div class="caption">
                         </div>
                     </li>
                     <li>
-                        <a class="ns-img" href="images/thrifters2.png"></a>
+                        <a class="ns-img" href="images/testwork2.jpg"></a>
                         <div class="caption">
                         </div>
                     </li>
                     <li>
-                        <a class="ns-img" href="images/thrifters3.png"></a>
+                        <a class="ns-img" href="images/testwork3.jpg"></a>
                         <div class="caption">
                         </div>
                     </li>
                     <li>
-                        <a class="ns-img" href="images/thrifters4.png"></a>
+                        <a class="ns-img" href="images/testwork4.jpg"></a>
                         <div class="caption">
                         </div>
                     </li>
