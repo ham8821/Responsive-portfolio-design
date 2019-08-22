@@ -3,7 +3,7 @@
             <div class="slider-inner">
                 <ul>
                 <li>
-                        <a class="ns-img" href="images/thrifters.png"></a>
+                        <a class="ns-img" href="images/testwork.jpg"></a>
                         <div class="caption">
                         </div>
                     </li>
