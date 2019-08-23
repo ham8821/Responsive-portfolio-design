@@ -9,7 +9,7 @@
     <!-- font embeded -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Oswald|Playfair+Display" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- <script src="https://code.iconify.design/1/1.0.0/iconify.min.js"></script> -->
+    <script src="https://code.iconify.design/1/1.0.0/iconify.min.js"></script>
     <!-- Css transition -->
     
     <!-- js files -->
