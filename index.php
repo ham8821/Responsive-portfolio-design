@@ -110,7 +110,7 @@ elseif(!ob_start("ob_gzhandler")) {
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="extra">
         <div class="container-fluid extra full-screen">
-            <h2 class="extraheading hideme"> Little extra about me</h2>
+          
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-md-5 col-lg-5 extrabox">
@@ -123,7 +123,7 @@ elseif(!ob_start("ob_gzhandler")) {
                         </div>
                         <div>
                             <br>
-                            <p class="define">If I define my personality into 3 words, It would be <b>Create, Refine</b> and <b>Execute</b>. Simply because I love creating, refining and executing. Not necessarily only talking about programming, I love the process of delivering best work of what is done, even when I have free time to spend on hobbies.</p>
+                            <p class="define hideme">If I define my personality into 3 words, It would be <b>Create, Refine</b> and <b>Execute</b>. Simply because I love creating, refining and executing. Not necessarily only talking about programming, I love the process of delivering best work of what is done, even when I have free time to spend on hobbies.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-7 col-lg-7">
@@ -132,31 +132,31 @@ elseif(!ob_start("ob_gzhandler")) {
                             <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px" src="images/radio.png" alt="">
+                                    <img class="hop img-responsive" style="height:170px; width:200px; margin-top:20px" src="images/radio.png" alt="">
                                     <div class="deshobby">KNTV: Radio host</div>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px;" src="images/coffee.jpg" alt="">
+                                    <img class="hop img-responsive" style="height:170px; width:200px; margin-top:20px" src="images/coffee.jpg" alt="">
                                     <div class="deshobby">Barista_coffee lover</div>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px;" src="images/writer.jpg" alt="">
+                                    <img class="hop img-responsive" style="height:170px; width:200px;margin-top:20px" src="images/writer.jpg" alt="">
                                     <div class="deshobby">Instagram writers: believe in power of inspirational quotes</div>
                                 </div>
                             </div>
                         </div>
                         <div class="row imgrow" style="margin-bottom: 30px;">
-                            <div class="extheading"> What I find interesting these days</div>
+                            <div class="extheading2"> What I find interesting these days</div>
                             <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px margin-top:20px" src="images/react.png" alt="">
+                                    <img class="hop img-responsive" style="height:170px; width:200px; margin-top:20px" src="images/react.png" alt="">
                                     <div class="deshobby">Powerful modern frameworks</div>
 
                                 </div>
@@ -164,14 +164,14 @@ elseif(!ob_start("ob_gzhandler")) {
                             <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px;" src="images/type.jpeg" alt="">
+                                    <img class="hop img-responsive" style="height:170px; width:200px;margin-top:20px" src="images/type.jpeg" alt="">
                                     <div class="deshobby">Typescript</div>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-lg-4">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px;" src="images/aws.png" alt="">
+                                    <img class="hop img-responsive" style="height:170px; width:200px;margin-top:20px" src="images/aws.png" alt="">
                                     <div class="deshobby">Deployment knowledge, Cloud computing</div>
                                 </div>
                             </div>
@@ -220,25 +220,26 @@ elseif(!ob_start("ob_gzhandler")) {
     <!-- ---------------------------------------------------------------------------- -->
     <script>
         $('body').on('submit', 'form.contactfo', function() {
-            var box = $('#formbox');
-            var secondbox = $('#secondbox');
+    var box = $('#formbox');
+    var secondbox = $('#secondbox');
 
-            setTimeout(function() {
-                box.css('display', 'none');
-            }, 500);
-            setTimeout(function() {
-                secondbox.css('display', 'block');
-            }, 500);
-            $("#backbtn").click(function() {
-                setTimeout(function() {
-                    secondbox.css('display', 'none');
-                }, 500);
-                setTimeout(function() {
-                    box.css('display', 'block');
-                }, 500);
-            })
-        })
-    </script>
+    setTimeout(function() {
+        box.css('display', 'none');
+    }, 500);
+    setTimeout(function() {
+        secondbox.css('display', 'block');
+    }, 500);
+    $("#backbtn").click(function() {
+        setTimeout(function() {
+            secondbox.css('display', 'none');
+        }, 500);
+        setTimeout(function() {
+            box.css('display', 'block');
+        }, 500);
+    })
+})
+
+        </script>
     <?php
     // include_once("partials/indicatorUp.php");
     include_once("partials/footer.php");

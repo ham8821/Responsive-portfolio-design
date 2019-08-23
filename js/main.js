@@ -124,9 +124,22 @@ function lightbox4(idx) {
   fsBtn.click();
 }
 
-$(document).ready(function(){
-  $("#formsubbtn").click(function(){
-    $("#formbox").css('display','none');
-    // $("#formbox").animate({ 'display': 'none' }, 1500);
-  })
+$('body').on('submit', 'form.contactfo', function() {
+    var box = $('#formbox');
+    var secondbox = $('#secondbox');
+
+    setTimeout(function() {
+        box.css('display', 'none');
+    }, 500);
+    setTimeout(function() {
+        secondbox.css('display', 'block');
+    }, 500);
+    $("#backbtn").click(function() {
+        setTimeout(function() {
+            secondbox.css('display', 'none');
+        }, 500);
+        setTimeout(function() {
+            box.css('display', 'block');
+        }, 500);
+    })
 })
