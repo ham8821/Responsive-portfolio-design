@@ -15,9 +15,9 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active navlist"><a href="index.php">Home</a></li>
-                        <li class="navlist"><a href= "../index.php #introduction">About</a></li>
+                        <li class="navlist"><a href= "index.php #introduction">About</a></li>
                         <li class="navlist"><a href="works.php">Projects</a></li>
-                        <li class="navlist"><a href="../index.php #Contact">Contact</a></li>
+                        <li class="navlist"><a href="index.php #Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
