@@ -123,6 +123,21 @@ function lightbox4(idx) {
   var fsBtn = document.getElementById("fsBtn4");
   fsBtn.click();
 }
+function lightbox5(idx) {
+  //Show the slider wrapper
+  var ninjaSldr = document.getElementById("ninja-slider5");
+  ninjaSldr.parentNode.style.display = "block";
+
+  //Then init the slider
+  //Note: The { initSliderByCallingInitFunc: true } option in the 
+  // ninja-slider.js tells the page not to initiate the slider
+  // unless the following init(idx) function is called.
+  nslider5.init(idx);
+
+  //Then mimic clicking the fullscreen button to popup the modal
+  var fsBtn = document.getElementById("fsBtn5");
+  fsBtn.click();
+}
 
 $('body').on('submit', 'form.contactfo', function() {
     var box = $('#formbox');

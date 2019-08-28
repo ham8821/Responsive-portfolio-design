@@ -249,8 +249,18 @@ body, html {
     transition: opacity .35s ease;
     margin-bottom: 10px;
 }
+.buttonsrc2 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 60%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    margin-bottom: 10px;
+}
 
-.buttonsrc a {
+.buttonsrc a ,.buttonsrc2 a {
     width: 30%;
     padding: 10px 30px;
     text-align: center;
@@ -263,7 +273,7 @@ body, html {
 
 
 @media(max-width:600px) {
-    .buttonsrc a {
+    .buttonsrc a,.buttonsrc2 a {
         padding: 5px 5px;
     }
 }
@@ -275,8 +285,15 @@ body, html {
     transition: font-size 0.5s ease;
 }
 
+.buttonsrc2 a:hover, a:focus {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: font-size 0.5s ease;
+}
 
-.imgcard:hover .buttonsrc {
+
+.imgcard:hover .buttonsrc,.imgcard:hover .buttonsrc2 {
     opacity: 1;
 }
 

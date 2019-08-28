@@ -38,6 +38,7 @@ elseif(!ob_start("ob_gzhandler")) {
     include_once("partials/work1_thrifters.php");
     include_once("partials/work1_itonline.php");
     include_once("partials/work1_carrental.php");
+    include_once("partials/work1_video_liquor.php");
     ?>
     <!-- /.navbar -->
     <!--head part  -->
@@ -60,6 +61,8 @@ elseif(!ob_start("ob_gzhandler")) {
                                 <div class="overlay"></div>
                                 <img class="workimg img-responsive" src="images/liquorlibrary.png" alt="">
                                 <div class="buttonsrc"><a href="https://www.github.com/a2ej2019t3/liquorlibrary"><i class="far fa-eye"></i> View Source </a></div>
+                                <div class="buttonsrc2"><a href="#" onclick="lightbox5(0)">  <i class="far fa-eye"></i> Play video</a></div>
+
                                 <div class="mobilewrapper">
                                     <img class="workmobileimg img-responsive" src="images/liquor_mobile.png" alt="">
                                     <button class="gallerybtn" onclick="lightbox(0)"><i class="fas fa-arrows-alt"></i> <span class="pre">Preview</span></button>
