@@ -68,7 +68,8 @@ body, html {
     left: 0em;
     top: 1em;
     height: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
 }
 .projectsubdes{
     font-size:13px;

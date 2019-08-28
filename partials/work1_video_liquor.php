@@ -3,10 +3,10 @@
         <div class="slider-inner">
             <ul>
                 <li>
-                    <div class="video">
-                        <video controls width="100%" height="100%">
-                            <source src="partials/liquorlibrary.mp4" type="video/mp4" />
-                        </video>
+                    
+                        <div class="video">
+                        <iframe src="http://www.youtube.com/embed/VCkWTlGqBOs" frameborder="0" allowfullscreen data-autoplay="false" width="100%;" height="100%"></iframe>
+                        </div>
                     </div>
 
                 </li>
@@ -21,16 +21,10 @@
 
 
 <style>
-
-    /* Visit http://www.menucool.com/responsive-slider for instructions */
-
-    /* Visit http://www.menucool.com/responsive-slider for instructions */
-
 #ninja-slider5 {
     width:100%;
     background:#333;
     padding: 30px 0;
-
     margin:0 auto;
     overflow:hidden;
     box-sizing:border-box;
@@ -40,7 +34,7 @@
     background:black;
 }
 
-#ninja-slider5 .fs-icon {
+#ninja-slider5 #fsBtn5 {
     top:10px;
     right:6px;
     width:60px;
@@ -57,17 +51,17 @@
     transition:opacity 0.8s;
 }
 
-#ninja-slider5 .slider-inner:hover .fs-icon,
-#ninja-slider5.fullscreen .fs-icon {
+#ninja-slider5 .slider-inner:hover #fsBtn5,
+#ninja-slider5.fullscreen #fsBtn5 {
     opacity: 1;
 }
 
-#ninja-slider5 .fs-icon::before {      
+#ninja-slider5 #fsBtn5::before {      
     content:"EXPAND";
     display:block;
 }
 
-#ninja-slider5.fullscreen .fs-icon::before {
+#ninja-slider5.fullscreen #fsBtn5::before {
     content:"CLOSE";
 }
 
