@@ -79,11 +79,6 @@ margin-right:80px;
     background-color: rgba(224, 184, 65, 1);
   }
 }
-@media(max-width:499px) {
-  .navbar-collapse{
-    width:93%;
-  }
-}
 .hideme {
   opacity: 0;
 }
