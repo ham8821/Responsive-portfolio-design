@@ -186,9 +186,8 @@ elseif(!ob_start("ob_gzhandler")) {
 
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="Contact">
-        <div class="full-screen">
-            <div class="row">
-                <div class="container-fluid contactscreen col-12" style="height:100vh;">
+       
+                <div class="container-fluid contactscreen full-screen" style="height:100vh;">
                     <br><br><br><br><br>
                     <h2 class="contact">Let's build something together!</h2>
                     <br>
@@ -214,8 +213,7 @@ elseif(!ob_start("ob_gzhandler")) {
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
+
     </section>
     <!-- ---------------------------------------------------------------------------- -->
     <script>
