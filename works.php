@@ -44,7 +44,7 @@ elseif(!ob_start("ob_gzhandler")) {
     <!--head part  -->
     <section>
 
-        <div class="row">
+        <div class="row" style="margin-right:0px!important;">
             <div class="col-12 headpart">
                 <div class="projecthead">
                     <span class="projectmain">PROJECTS</span>

@@ -5,9 +5,9 @@
               <div class="col-sm-12 col-md-6">
                   <h6>What I believe</h6>
                   <br>
-                  <i class="fas fa-quote-left" style="margin-left:-500px;"></i>
+                  <!-- <i class="fas fa-quote-left" style="margin-left:-500px;"></i> -->
                   <p class="text-justify footer_statement">Programming is not about being better than others,<br> it’s about whether you can work with others or not.</p>
-                  <i class="fas fa-quote-right" style="margin-right:-500px;"></i>
+                  <!-- <i class="fas fa-quote-right" style="margin-right:-500px;"></i> -->
               </div>
 
               <div class="col-xs-6 col-md-3">

@@ -13,6 +13,7 @@ body, html {
   padding: 0px;
   scroll-behavior: smooth;
   transition: opacity .5s;
+  /* overflow-x: hidden;  */
 }
 body{
   overflow-x: hidden;
@@ -266,9 +267,9 @@ margin-right:80px;
 }
 .subhead{
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-align: center;
-  margin-top:100px;
+  margin-top: 80px;
   clear: both;
 }
 .extrabox {
@@ -377,12 +378,18 @@ margin-right:80px;
 .contactscreen {
   background-image: url("../images/wallpaper18.jpg");
   height: 100vh!important;
+  min-height: 625px;
   background-size: cover;
   text-align: center;
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
   z-index: -30;
+}
+@media(max-width:600px){
+  .contactscreen {
+    height: 100%!important;
+  } 
 }
 
 .contact {
@@ -398,7 +405,14 @@ margin-right:80px;
 @media screen and (max-width: 600px) {
   .contact {
     font-size: 23px;
+    text-align: center;
+    margin-left: 0;
   }
+ 
+.contactform {
+  max-width: 500px;
+  margin: 20px auto;
+} 
 }
 
 .contactform {
@@ -408,13 +422,13 @@ margin-right:80px;
 
 .inputbox {
   width: 100%;
-  margin: 0px 8px;
+  margin: 0px auto;
   border-top: none;
 }
 
 .contactbutton {
   width: 100%;
-  margin: 0px 8px;
+  margin: 0px auto;
   color: white;
   background-color: rgba(48, 43, 41, 1);
   height: 35px;
@@ -503,9 +517,6 @@ margin-right:80px;
     height: 100%;
   }
   .extra {
-    height: 100%;
-  }
-  .contactscreen {
     height: 100%;
   }
 }
