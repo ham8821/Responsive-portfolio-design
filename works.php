@@ -21,9 +21,6 @@ elseif(!ob_start("ob_gzhandler")) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Emma Ham_ portfolio_projects</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php
     include_once("partials/head.php");
     include_once("css/style.php");
