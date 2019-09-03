@@ -204,7 +204,9 @@ margin-right:80px;
   font-size: 4.5rem;
   font-weight: 700;
   color: rgba(242, 201, 21, 1);
-  margin-top: 0;
+  margin-top: 40%; 
+  /* position: absolute;
+  top:40%;  */
 }
 
 .iconify {

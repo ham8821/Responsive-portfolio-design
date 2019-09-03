@@ -18,6 +18,8 @@
                         <li class="navlist"><a href= "index.php#introduction">About</a></li>
                         <li class="navlist"><a href="works.php">Projects</a></li>
                         <li class="navlist"><a href="index.php#Contact">Contact</a></li>
+                        <li class="navlist"><a href="https://dev.to/ham8821">Blog</a></li>
+
                     </ul>
                 </div>
             </div>

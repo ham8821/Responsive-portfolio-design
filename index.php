@@ -95,7 +95,7 @@ elseif(!ob_start("ob_gzhandler")) {
         <div class="container-fluid full-screen">
             <div class="row">
                 <div class="workscreen col-xs-12 col-md-12 col-lg-12">
-                    <br><br><br><br><br><br><br> <br><br><br><br><br><br><br>
+                    <!-- <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> -->
                     <p class="recentwork hideme">My recent Projects</p>
                     <div class="iconbox hideme"><a href="#"> <span class="iconify" data-icon="jam:chevron-circle-right" data-inline="false" onclick="transitionToPage('works.php')"></span></a></div>
                 </div>
