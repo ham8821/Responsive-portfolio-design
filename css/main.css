@@ -132,13 +132,12 @@ margin-right:80px;
 
 .introscreen {
   background-image: url("../images/wallpaper2.jpg");
-  height: 110vh;
+  height: 100vh;
   background-size: cover;
   text-align: center;
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
-
   display: table;}
 
 #introductionbox {

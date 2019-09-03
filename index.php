@@ -48,7 +48,7 @@ elseif(!ob_start("ob_gzhandler")) {
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="introduction">
 
-        <div class="container-fluid full-screen">
+        <div class="container-fluid full-screen" id="parentjob">
             <div class="row">
                 <div class="introscreen col-xs-12 col-md-12 col-lg-12 col-xl-12">
                     <div id="introductionbox" id="childjob">
