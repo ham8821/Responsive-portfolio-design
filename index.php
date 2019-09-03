@@ -56,14 +56,14 @@ elseif(!ob_start("ob_gzhandler")) {
                         <p class="jobtitle hideme" style=" margin-top: 50px; margin-right:80px;">Front-end developer </p>
                         <p class="jobtitle hideme" style=" margin-bottom: 20px;">&nbsp &nbsp & Full-stack developer</p>
 
-                        <div class="collapse navbar-collapse" id="extrades">
+                        <!-- <div class="collapse navbar-collapse" id="extrades">
                             <p class="intro hideme">Having completed bachelor degree in Business Administration and Graduate Diploma in Information Technology this year, I've been always pursuing learning new things day by day. <br> What I always make sure in daily basis is whether I have learnt new things apart from school study scope, having personal projects aside all the time. At the moment, I am working for this liquor speacialist company, building their official website as a contract developer. If you are interested, you can have a look some of my works here.</p>
                         </div>
                         <br>
                         <p class="intro hideme"> I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
                         <button type="button" style="background-color:black; margin:0; color: white; border-radius:5px; float:none; font-size:0.8em; border:none;" class="navbar-toggle readmore" data-toggle="collapse" data-target="#extrades">
                             <span>READ MORE</span>
-                        </button>
+                        </button> -->
 
                         <div class="row">
                             <div class="buttons">
