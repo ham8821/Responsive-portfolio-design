@@ -297,12 +297,8 @@ body, html {
     }
     .buttonsrc a:hover, a:focus {
         font-size: 13px;
-        transition: font-size 0.5s ease;
-    }
-    .buttonsrc, .buttonsrc2 {
-        padding: 5px 5px;
         margin: 30px auto;
-        font-size: 10px;
+        transition: font-size 0.5s ease;
     }
 }
 
