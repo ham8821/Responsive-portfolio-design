@@ -295,7 +295,7 @@ body, html {
         margin: 20px auto;
         font-size: 10px;
     }
-    .buttonsrc a:hover, a:focus {
+    .buttonsrc a:hover, .buttonsrc a:focus {
         font-size: 13px;
         margin: 30px auto;
         transition: font-size 0.5s ease;
