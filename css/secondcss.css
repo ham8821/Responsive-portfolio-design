@@ -12,7 +12,6 @@ body, html {
     margin: 0%;
 }
 
-
 @-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -58,7 +57,6 @@ body, html {
     display: table;
 }
 
-
 .projecthead {
     display: table-cell;
     vertical-align: middle;
@@ -71,9 +69,11 @@ body, html {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
 }
-.projectsubdes{
-    font-size:13px;
+
+.projectsubdes {
+    font-size: 13px;
 }
+
 @media(max-height:600px) {
     .projecthead {
         margin-bottom: 100px;
@@ -84,15 +84,15 @@ body, html {
     .workpage {
         margin: -150px auto 0;
     }
-    .projectsubdes{
-        font-size:10px;
+    .projectsubdes {
+        font-size: 10px;
     }
 }
 
 .projectmain {
     /* display: table-cell;
     vertical-align: middle; */
-    color: rgba(48, 43, 41,1);
+    color: rgba(48, 43, 41, 1);
     font-size: 5em;
 }
 
@@ -101,8 +101,9 @@ body, html {
         font-size: 35px;
     }
 }
+
 .morebtn {
-    background-color: rgba(48, 43, 41,1);
+    background-color: rgba(48, 43, 41, 1);
     border: none;
     color: white!important;
     border-radius: 5px;
@@ -110,10 +111,11 @@ body, html {
     left: 0em;
     top: -2.5em;
 }
+
 .morebtn:hover {
     background-color: transparent;
-    border: 2px solid rgba(48, 43, 41,1);
-    color: rgba(48, 43, 41,1)!important;
+    border: 2px solid rgba(48, 43, 41, 1);
+    color: rgba(48, 43, 41, 1)!important;
 }
 
 .morebtn a {
@@ -123,7 +125,7 @@ body, html {
 
 .morebtn:hover, .morebtn:hover a {
     background-color: transparent;
-    color: rgba(48, 43, 41,1)!important;
+    color: rgba(48, 43, 41, 1)!important;
     text-decoration: none;
 }
 
@@ -250,6 +252,7 @@ body, html {
     transition: opacity .35s ease;
     margin-bottom: 10px;
 }
+
 .buttonsrc2 {
     position: absolute;
     width: 100%;
@@ -261,7 +264,7 @@ body, html {
     margin-bottom: 10px;
 }
 
-.buttonsrc a ,.buttonsrc2 a {
+.buttonsrc a, .buttonsrc2 a {
     width: 30%;
     padding: 10px 30px;
     text-align: center;
@@ -270,13 +273,6 @@ body, html {
     z-index: 1;
     text-decoration: none;
     font-size: 13px;
-}
-
-
-@media(max-width:600px) {
-    .buttonsrc a,.buttonsrc2 a {
-        padding: 5px 5px;
-    }
 }
 
 .buttonsrc a:hover, a:focus {
@@ -293,8 +289,19 @@ body, html {
     transition: font-size 0.5s ease;
 }
 
+@media(max-width:600px) {
+    .buttonsrc a, .buttonsrc2 a {
+        padding: 5px 5px;
+        margin: 10px auto;
+        font-size: 10px;
+    }
+    .buttonsrc a:hover, a:focus {
+        font-size: 13px;
+        transition: font-size 0.5s ease;
+    }
+}
 
-.imgcard:hover .buttonsrc,.imgcard:hover .buttonsrc2 {
+.imgcard:hover .buttonsrc, .imgcard:hover .buttonsrc2 {
     opacity: 1;
 }
 
@@ -316,7 +323,7 @@ body, html {
     border-radius: 5px;
     float: none;
     border: none;
-    margin:0;
+    margin: 0;
 }
 
 .gallerybtn i {
@@ -351,7 +358,7 @@ body, html {
         float: right;
         margin-top: -50px;
     }
-    .pre{
+    .pre {
         display: none;
     }
 }
@@ -359,10 +366,13 @@ body, html {
 .modal-backdrop {
     z-index: 1040 !important;
 }
+
 .modal-dialog {
     margin: 2px auto;
     z-index: 1100 !important;
-}.modal-backdrop {
-    /* bug fix - no overlay */    
-    display: none;    
+}
+
+.modal-backdrop {
+    /* bug fix - no overlay */
+    display: none;
 }
