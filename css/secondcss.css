@@ -292,7 +292,7 @@ body, html {
 @media(max-width:600px) {
     .buttonsrc a, .buttonsrc2 a {
         padding: 5px 5px;
-        margin: 10px auto;
+        margin: 20px auto;
         font-size: 10px;
     }
     .buttonsrc a:hover, a:focus {
