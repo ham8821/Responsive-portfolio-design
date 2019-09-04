@@ -1,16 +1,13 @@
 <?php
 if (!isset($_SERVER['HTTP_ACCEPT_ENCODING'])) {
-    ob_start();            
-}
-elseif (strpos(' ' . $_SERVER['HTTP_ACCEPT_ENCODING'], 'x-gzip') == false) {
+    ob_start();
+} elseif (strpos(' ' . $_SERVER['HTTP_ACCEPT_ENCODING'], 'x-gzip') == false) {
     if (strpos(' ' . $_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip') == false) {
         ob_start();
-    }
-    elseif(!ob_start("ob_gzhandler")) {
+    } elseif (!ob_start("ob_gzhandler")) {
         ob_start();
-    }   
-}
-elseif(!ob_start("ob_gzhandler")) {
+    }
+} elseif (!ob_start("ob_gzhandler")) {
     ob_start();
 }
 ?>
@@ -52,8 +49,8 @@ elseif(!ob_start("ob_gzhandler")) {
             <div class="row">
                 <div class="introscreen col-xs-12 col-md-12 col-lg-12 col-xl-12">
                     <div id="introductionbox" id="childjob">
-
-                        <p class="jobtitle hideme" style=" margin-top: 50px; margin-right:80px;">Front-end developer </p>
+                        
+                        <p class="jobtitle hideme" style=" margin-top: 10rem; margin-right:80px;">Front-end developer </p>
                         <p class="jobtitle hideme" style=" margin-bottom: 20px;">&nbsp &nbsp & Full-stack developer</p>
 
                         <div class="collapse navbar-collapse" id="extrades">
@@ -107,7 +104,7 @@ elseif(!ob_start("ob_gzhandler")) {
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="extra">
         <div class="container-fluid extra full-screen">
-          
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-md-5 col-lg-5 extrabox">
@@ -126,115 +123,128 @@ elseif(!ob_start("ob_gzhandler")) {
                     <div class="col-xs-12 col-md-7 col-lg-7">
                         <div class="row imgrow">
                             <div class="extheading"> What I do for fun</div>
-                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px; margin-top:20px" src="images/radio.png" alt="">
-                                    <div class="deshobby">KNTV: Radio host</div>
+                                    <img class="hop img-responsive" style="height:160px; width:170px; margin-top:20px" src="images/radio.png" alt="">
                                 </div>
+                                <div class="deshobby">KNTV: Radio host</div>
                             </div>
-                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px; margin-top:20px" src="images/coffee.jpg" alt="">
-                                    <div class="deshobby">Barista_coffee lover</div>
+                                    <img class="hop img-responsive" style="height:160px; width:170px; margin-top:20px" src="images/coffee.jpg" alt="">
                                 </div>
+                                <div class="deshobby">Barista_coffee lover</div>
                             </div>
-                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px;margin-top:20px" src="images/writer.jpg" alt="">
-                                    <div class="deshobby">Instagram writers: believe in power of inspirational quotes</div>
+                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/dev2.jpg" alt="">
                                 </div>
+                                <div class="deshobby">Tech Blogging</div>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                                <div class="hobbywrap">
+
+                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/writer.jpg" alt="">
+                                </div>
+                                <div class="deshobby">Social writer</div>
                             </div>
                         </div>
                         <div class="row imgrow" style="margin-bottom: 30px;">
                             <div class="extheading2"> What I find interesting these days</div>
-                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px; margin-top:20px" src="images/react.png" alt="">
+                                    <img class="hop img-responsive" style="height:160px; width:170px; margin-top:20px" src="images/react.png" alt="">
+                                    
                                     <div class="deshobby">Powerful modern frameworks</div>
-
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px;margin-top:20px" src="images/type.jpeg" alt="">
-                                    <div class="deshobby">Typescript</div>
+                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/type.jpeg" alt="">
                                 </div>
+                                <div class="deshobby">Typescript</div>
                             </div>
-                            <div class="col-xs-12 col-sm-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:170px; width:200px;margin-top:20px" src="images/aws.png" alt="">
-                                    <div class="deshobby">Deployment knowledge, Cloud computing</div>
+                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/aws.png" alt="">
                                 </div>
+                                <div class="deshobby">Deployment knowledge, Cloud computing</div>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                                <div class="hobbywrap">
+
+                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/rest.jpg" alt="">
+                                </div>
+                                <div class="deshobby">RESTful API</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</div>
+        </div>
     </section>
     <!-- ---------------------------------------------------------------------------- -->
 
     <!-- page to greet people ------------------------------------------------------ -->
     <section id="Contact">
-       
-                <div class="container-fluid contactscreen full-screen" style="height:100vh;">
-                    <br><br><br><br><br>
-                    <h2 class="contact">Let's build something together!</h2>
-                    <br>
-                    <div class="row">
-                        <form class="contactfo" id="contactformname" method="POST" action="MAILTO:emma.hj.ham@gmail.com?subject=New request from your website" enctype="text/plain">
-                            <div id="formbox" class="contactform col-sm-12 col-md-12 col-lg-12">
-                                <div class="labelname"><label class="label">Name</label>*</div>
-                                <div class="inputbox"><input name="From: " class="inputbox" type="text" required></div>
-                                <br>
-                                <div class="labelname"><label class="label">Email</label>*</div>
-                                <div class="inputbox"><input name="Reply Email: " class="inputbox" type="email" required> </div>
-                                <br>
-                                <div class="labelname"><label class="label">Message</label>*</div>
-                                <div class="inputbox"><textarea class="inputbox" name="Message: " cols="30" rows="10" placeholder="" required></textarea> </div>
-                                <div class="inputbox"><button class="contactbutton" type="submit" id="formsubbtn">SUBMIT</button></div>
-                            </div>
-                            <div class="maildirection" id="secondbox" style="display:none">
-                                <div class="mgs">
-                                    Thanks for your interest, I will get back to you as soon as possible:)
-                                </div>
-                                <button class="gobackbutton" type="button" id="backbtn">Go back</button>
-                            </div>
-                        </form>
+
+        <div class="container-fluid contactscreen full-screen" style="height:100vh;">
+            <br><br><br><br><br>
+            <h2 class="contact">Let's build something together!</h2>
+            <br>
+            <div class="row">
+                <form class="contactfo" id="contactformname" method="POST" action="MAILTO:emma.hj.ham@gmail.com?subject=New request from your website" enctype="text/plain">
+                    <div id="formbox" class="contactform col-sm-12 col-md-12 col-lg-12">
+                        <div class="labelname"><label class="label">Name</label>*</div>
+                        <div class="inputbox"><input name="From: " class="inputbox" type="text" required></div>
+                        <br>
+                        <div class="labelname"><label class="label">Email</label>*</div>
+                        <div class="inputbox"><input name="Reply Email: " class="inputbox" type="email" required> </div>
+                        <br>
+                        <div class="labelname"><label class="label">Message</label>*</div>
+                        <div class="inputbox"><textarea class="inputbox" name="Message: " cols="30" rows="10" placeholder="" required></textarea> </div>
+                        <div class="inputbox"><button class="contactbutton" type="submit" id="formsubbtn">SUBMIT</button></div>
                     </div>
-                </div>
+                    <div class="maildirection" id="secondbox" style="display:none">
+                        <div class="mgs">
+                            Thanks for your interest, I will get back to you as soon as possible:)
+                        </div>
+                        <button class="gobackbutton" type="button" id="backbtn">Go back</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
     </section>
     <!-- ---------------------------------------------------------------------------- -->
     <script>
         $('body').on('submit', 'form.contactfo', function() {
-    var box = $('#formbox');
-    var secondbox = $('#secondbox');
+            var box = $('#formbox');
+            var secondbox = $('#secondbox');
 
-    setTimeout(function() {
-        box.css('display', 'none');
-    }, 500);
-    setTimeout(function() {
-        secondbox.css('display', 'block');
-    }, 500);
-    $("#backbtn").click(function() {
-        setTimeout(function() {
-            secondbox.css('display', 'none');
-        }, 500);
-        setTimeout(function() {
-            box.css('display', 'block');
-        }, 500);
-    })
-})
-
-        </script>
+            setTimeout(function() {
+                box.css('display', 'none');
+            }, 500);
+            setTimeout(function() {
+                secondbox.css('display', 'block');
+            }, 500);
+            $("#backbtn").click(function() {
+                setTimeout(function() {
+                    secondbox.css('display', 'none');
+                }, 500);
+                setTimeout(function() {
+                    box.css('display', 'block');
+                }, 500);
+            })
+        })
+    </script>
     <?php
     // include_once("partials/indicatorUp.php");
     include_once("partials/footer.php");

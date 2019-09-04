@@ -45,7 +45,7 @@
                   </div>
               </div>
 
-              <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="col-md-4 col-sm-6 col-xs-12" style="text-align:center;">
                   <ul class="social-icons">
 
                       <li><a class="facebook" href="https://www.github.com/ham8821"><i class="fab fa-github"></i></a></li>

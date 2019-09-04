@@ -15,9 +15,11 @@ body, html {
   transition: opacity .5s;
   /* overflow-x: hidden;  */
 }
-body{
+
+body {
   overflow-x: hidden;
 }
+
 /* navbar */
 
 .navbar-fixed-top {
@@ -33,10 +35,11 @@ body{
   transition: background-color .6s ease 0s;
   color: white!important;
 }
-@media(max-width: 500px){
-.navar-toggle{
-margin-right:80px;
-}  
+
+@media(max-width: 500px) {
+  .navar-toggle {
+    margin-right: 80px;
+  }
 }
 
 .navbar-brand {
@@ -79,6 +82,7 @@ margin-right:80px;
     background-color: rgba(224, 184, 65, 1);
   }
 }
+
 .hideme {
   opacity: 0;
 }
@@ -131,14 +135,15 @@ margin-right:80px;
 /* -----------------section2----------------- */
 
 .introscreen {
-  background-image: url("../images/wallpaper2.jpg");
+  background-image: url("../images/test3.jpg");
   height: 100vh;
   background-size: cover;
   text-align: center;
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
-  display: table;}
+  display: table;
+}
 
 #introductionbox {
   font-family: 'Roboto', sans-serif;
@@ -182,10 +187,12 @@ margin-right:80px;
 #parentjob {
   display: table;
 }
+
 #childjob {
   display: table-cell;
   vertical-align: middle;
 }
+
 /* ------------------------------------------------------------ */
 
 .workscreen {
@@ -226,7 +233,7 @@ margin-right:80px;
   /* display: table; */
   background-image: url("../images/wallpaper13.jpg");
   background-size: cover;
-  height:100%;
+  height: 100%;
   width: 100vw;
   text-align: center;
   background-attachment: scroll;
@@ -243,7 +250,8 @@ margin-right:80px;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
 }
-.extheading{
+
+.extheading {
   color: rgba(48, 43, 41, 1);
   text-align: center;
   margin-top: 100px;
@@ -251,24 +259,26 @@ margin-right:80px;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
 }
-.extheading2{
+
+.extheading2 {
   color: rgba(48, 43, 41, 1);
   text-align: center;
-  margin-top: 30px;
   font-size: 2.3rem;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
 }
-.subhead{
+
+.subhead {
   font-family: 'Roboto', sans-serif;
   font-size: 1.7rem;
   text-align: center;
   margin-top: 80px;
   clear: both;
 }
+
 .extrabox {
   /* margin:  30px; */
-  margin-top:30px auto;
+  margin-top: 30px auto;
   /* max-width: 400px; */
   /* color: rgba(124, 99, 84, 1); */
   font-family: 'Roboto', sans-serif;
@@ -276,26 +286,39 @@ margin-right:80px;
   font-weight: 600;
   text-align: left;
 }
-/* .hobbywrap:hover .overlay {
-  display: block;
-  background: rgba(0, 0, 0, .7);
-} */
 
-.hobbywrap{
+.hobbywrap {
   width: 200px;
-  max-height: 170px;
-  margin:0 auto;
+  max-height: 180px;
+  margin: 0 auto;
+  overflow: hidden;
 }
-.imgrow{
+
+.imgrow .hobbywrap img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.imgrow .hobbywrap:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
+}
+
+.imgrow {
   /* margin-top:370px; */
   position: relative;
   bottom: 20px;
 }
-.deshobby{
+
+.deshobby {
   font-weight: 600;
+  width: 170px;
   font-size: 1.5rem;
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
+
 .imagewrap {
   width: 300px;
   height: 300px;
@@ -303,20 +326,20 @@ margin-right:80px;
   text-align: center;
   margin: auto auto;
 }
-@media(max-width:600px){
+
+@media(max-width:600px) {
   .imagewrap {
     width: 200px;
     height: 200px;
-  
-  } 
-  .first, .sec, .thr{
-    font-size:15px;
   }
-  .extheading{
-    font-size:20px;
+  .first, .sec, .thr {
+    font-size: 15px;
   }
-
+  .extheading {
+    font-size: 20px;
+  }
 }
+
 .first {
   margin-top: 20px;
 }
@@ -339,10 +362,10 @@ margin-right:80px;
 
 .first, .sec, .thr {
   font-size: 2rem;
-  color:#852D91;
+  color: #852D91;
   font-family: 'Playfair Display', serif;
-
 }
+
 /* 
  font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -380,10 +403,11 @@ margin-right:80px;
   background-repeat: no-repeat;
   z-index: -30;
 }
-@media(max-width:600px){
+
+@media(max-width:600px) {
   .contactscreen {
     height: 100%!important;
-  } 
+  }
 }
 
 .contact {
@@ -402,11 +426,10 @@ margin-right:80px;
     text-align: center;
     margin-left: 0;
   }
- 
-.contactform {
-  max-width: 500px;
-  margin: 20px auto;
-} 
+  .contactform {
+    max-width: 500px;
+    margin: 20px auto;
+  }
 }
 
 .contactform {
