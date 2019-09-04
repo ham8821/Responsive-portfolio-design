@@ -31,7 +31,7 @@ if (!isset($_SERVER['HTTP_ACCEPT_ENCODING'])) {
     <header id="intro">
         <div class="container-fluid full-screen">
             <div class="row">
-                <div class="mainscreen col-xs-12 col-sm-12 col-md-12">
+                <div class="mainscreen">
 
                     <p class="greetingtitle">Hi, I'm Emma. Nice to meet you.</p>
                 </div>
@@ -47,7 +47,7 @@ if (!isset($_SERVER['HTTP_ACCEPT_ENCODING'])) {
 
         <div class="container-fluid full-screen" id="parentjob">
             <div class="row">
-                <div class="introscreen col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="introscreen">
                     <div id="introductionbox" id="childjob">
                         
                         <p class="jobtitle hideme" style=" margin-top: 10rem; margin-right:80px;">Front-end developer </p>
@@ -91,7 +91,7 @@ if (!isset($_SERVER['HTTP_ACCEPT_ENCODING'])) {
     <section id="works">
         <div class="container-fluid full-screen">
             <div class="row">
-                <div class="workscreen col-xs-12 col-md-12 col-lg-12">
+                <div class="workscreen">
                     <br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br>
                     <p class="recentwork hideme">My recent Projects</p>
                     <div class="iconbox hideme"><a href="#"> <span class="iconify" data-icon="jam:chevron-circle-right" data-inline="false" onclick="transitionToPage('works.php')"></span></a></div>
@@ -107,7 +107,7 @@ if (!isset($_SERVER['HTTP_ACCEPT_ENCODING'])) {
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-12 col-md-5 col-lg-5 extrabox">
+                    <div class="extrabox col-xs-12 col-md-5 col-lg-5">
                         <p class="subhead">Congratuations!<br> You are about to see more colors of me as a person!</p>
                         <div class="imagewrap hideme">
                             <div class="first">CREATE</div>
@@ -123,63 +123,63 @@ if (!isset($_SERVER['HTTP_ACCEPT_ENCODING'])) {
                     <div class="col-xs-12 col-md-7 col-lg-7">
                         <div class="row imgrow">
                             <div class="extheading"> What I do for fun</div>
-                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                            <div class="wrap col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:160px; width:170px; margin-top:20px" src="images/radio.png" alt="">
+                                    <img class="hop" src="images/radio.png" alt="">
                                 </div>
                                 <div class="deshobby">KNTV: Radio host</div>
                             </div>
-                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                            <div class="wrap col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:160px; width:170px; margin-top:20px" src="images/coffee.jpg" alt="">
+                                    <img class="hop"  src="images/coffee.jpg" alt="">
                                 </div>
                                 <div class="deshobby">Barista_coffee lover</div>
                             </div>
-                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                            <div class="wrap col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/dev2.jpg" alt="">
+                                    <img class="hop" src="images/dev2.jpg" alt="">
                                 </div>
                                 <div class="deshobby">Tech Blogging</div>
                             </div>
-                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                            <div class="wrap col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/writer.jpg" alt="">
+                                    <img class="hop" src="images/writer.jpg" alt="">
                                 </div>
                                 <div class="deshobby">Social writer</div>
                             </div>
                         </div>
                         <div class="row imgrow" style="margin-bottom: 30px;">
                             <div class="extheading2"> What I find interesting these days</div>
-                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                            <div class="wrap col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:160px; width:170px; margin-top:20px" src="images/react.png" alt="">
+                                    <img class="hop" src="images/react.png" alt="">
                                     
-                                    <div class="deshobby">Powerful modern frameworks</div>
                                 </div>
+                                <div class="deshobby">React</div>
                             </div>
-                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                            <div class="wrap col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/type.jpeg" alt="">
+                                    <img class="hop" src="images/type.jpeg" alt="">
                                 </div>
                                 <div class="deshobby">Typescript</div>
                             </div>
-                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                            <div class="wrap col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/aws.png" alt="">
+                                    <img class="hop" src="images/aws.png" alt="">
                                 </div>
-                                <div class="deshobby">Deployment knowledge, Cloud computing</div>
+                                <div class="deshobby">AWS</div>
                             </div>
-                            <div class="col-xs-6 col-sm-3 col-lg-3">
+                            <div class="wrap col-xs-6 col-sm-3 col-lg-3">
                                 <div class="hobbywrap">
 
-                                    <img class="hop img-responsive" style="height:160px; width:170px;margin-top:20px" src="images/rest.jpg" alt="">
+                                    <img class="hop" src="images/rest.jpg" alt="">
                                 </div>
                                 <div class="deshobby">RESTful API</div>
                             </div>
