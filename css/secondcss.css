@@ -299,6 +299,11 @@ body, html {
         font-size: 13px;
         transition: font-size 0.5s ease;
     }
+    .buttonsrc, .buttonsrc2 {
+        padding: 5px 5px;
+        margin: 30px auto;
+        font-size: 10px;
+    }
 }
 
 .imgcard:hover .buttonsrc, .imgcard:hover .buttonsrc2 {
