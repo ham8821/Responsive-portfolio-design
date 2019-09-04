@@ -290,11 +290,21 @@ body, html {
 }
 
 @media(max-width:600px) {
-    .buttonsrc {
+    .buttonsrc{
         top: 35%;
     }
-    .buttonsrc2 {
+    .buttonsrc2{
         top: 65%;
+    }
+    .buttonsrc a, .buttonsrc2 a {
+        padding: 5px 5px;
+        margin: 20px auto;
+        font-size: 10px;
+    }
+    .buttonsrc a:hover, .buttonsrc a:focus {
+        font-size: 13px;
+        margin: 30px auto;
+        transition: font-size 0.5s ease;
     }
 }
 
