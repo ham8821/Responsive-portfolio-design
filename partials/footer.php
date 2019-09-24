@@ -23,10 +23,10 @@
                   <h6>Quick Links</h6>
                   <ul class="footer-links">
                       <li><a href="index.php #aboutus">About</a></li>
-                      <li><a href="contact.php">Contact</a></li>
-                      <li><a href="findlocation/findus.php">Projects</a></li>
-                      <li><a href="#">Linked In</a></li>
-                      <li><a href="paymentprocess.php">Github</a></li>
+                      <li><a href="mailto:emma.hj.ham@gmail.com">Contact</a></li>
+                      <li><a href="works.php">Projects</a></li>
+                      <li><a href="https://www.linkedin.com/in/emmaham/">Linked In</a></li>
+                      <li><a href="https://www.github.com/ham8821">Github</a></li>
                   </ul>
               </div>
           </div>
